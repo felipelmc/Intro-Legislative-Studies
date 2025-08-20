@@ -4,7 +4,7 @@ bibliography: bibliography.bib
 author:
   - name: Felipe Lamarca
     email: felipelamarca@iesp.uerj.br
-fontsize: 11pt
+fontsize: 12pt
 ---
 
 > O curso tem por objetivo servir de introdução ao estudo do funcionamento e comportamento do Legislativo, desta forma, municiando conceitualmente alunas e alunos que desenvolvem pesquisas sobre a atual configuração do Congresso brasileiro. Tanto a bibliografia, quanto os casos empíricos considerados no programa encontram-se fortemente ancorados na experiência norte-americana. Não se trata de algo acidental, mas sim de opção pedagógica, uma vez que o campo se desenvolveu a partir do debate acadêmico travado nos Estados Unidos, debate que acabou influenciando, nem sempre de maneira consciente, o modo pelo qual a experiência brasileira é estudada. Não obstante, a literatura nacional constará como leitura complementar ao longo dos módulos que compõem o conjunto da disciplina. [[ementa]](https://iesp.uerj.br/wp-content/uploads/2025/07/Ementa-2025.2-Curso-Introd.-Estudos-Leg.-1.pdf)

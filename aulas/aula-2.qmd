@@ -4,7 +4,7 @@ bibliography: ../bibliography.bib
 author:
   - name: Felipe Lamarca
     email: felipelamarca@iesp.uerj.br
-fontsize: 11pt
+fontsize: 12pt
 ---
 
 # @Schlesinger1966AmbitionPolitics, introdução {.unnumbered}
