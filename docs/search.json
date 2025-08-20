@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Introdução aos Estudos Legislativos",
+    "section": "",
+    "text": "O curso tem por objetivo servir de introdução ao estudo do funcionamento e comportamento do Legislativo, desta forma, municiando conceitualmente alunas e alunos que desenvolvem pesquisas sobre a atual configuração do Congresso brasileiro. Tanto a bibliografia, quanto os casos empíricos considerados no programa encontram-se fortemente ancorados na experiência norte-americana. Não se trata de algo acidental, mas sim de opção pedagógica, uma vez que o campo se desenvolveu a partir do debate acadêmico travado nos Estados Unidos, debate que acabou influenciando, nem sempre de maneira consciente, o modo pelo qual a experiência brasileira é estudada. Não obstante, a literatura nacional constará como leitura complementar ao longo dos módulos que compõem o conjunto da disciplina. [ementa]\n\nProfessor: Fabiano Santos (IESP-UERJ) [homepage]\nSemestre: 2025.2",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Apresentação do curso</span>"
+    ]
+  },
+  {
+    "objectID": "aulas/aula-1.html",
+    "href": "aulas/aula-1.html",
+    "title": "2  Fundamentos",
+    "section": "",
+    "text": "Anotações de aula",
+    "crumbs": [
+      "Aulas",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Fundamentos</span>"
+    ]
+  },
+  {
+    "objectID": "aulas/aula-1.html#alguns-conceitos-iniciais",
+    "href": "aulas/aula-1.html#alguns-conceitos-iniciais",
+    "title": "2  Fundamentos",
+    "section": "Alguns conceitos iniciais",
+    "text": "Alguns conceitos iniciais\nFire alarm: conceito de o Legislativo deixar que o Executivo trabalhe e, no caso de algum tipo de ruído, ele “chia” – isto é, fiscaliza.\nCore: um conjunto de soluções possíveis; i.e., os pontos possíveis de serem alcançados a partir das preferências dos legisladores. Se o core é vazio, podemos chamar isso de várias maneiras, inclusive paralisia decisória. Isso vem da teoria dos jogos cooperativos.",
+    "crumbs": [
+      "Aulas",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Fundamentos</span>"
+    ]
+  },
+  {
+    "objectID": "aulas/aula-1.html#o-conceito-de-racionalidade-gilboa2012rationalchoice",
+    "href": "aulas/aula-1.html#o-conceito-de-racionalidade-gilboa2012rationalchoice",
+    "title": "2  Fundamentos",
+    "section": "O conceito de racionalidade (Gilboa 2012)",
+    "text": "O conceito de racionalidade (Gilboa 2012)\nA definição de racionalidade é o nosso ponto de partida. De saída, vale saber que a racionalidade é um atributo do indivíduo, mais especificamente das escolhas desses indivíduos. Essas escolhas têm determinadas características e essas características definem a racionalidade individual. Essas características são três:\n\nO indivíduo racional é capaz de distinguir alternativas: diante de cursos de ação alternativos, o indivíduo racional consegue estabelecer conexão de causa e efeito, e essas consequências serão distintas;\n\n\\[\n\\begin{align*}\nA &\\rightarrow A^\\prime \\\\\nB &\\rightarrow B^\\prime \\\\\nC &\\rightarrow C^\\prime\n\\end{align*}\n\\]\n\nO indivíduo racional é capaz de ordenar as alternativas\n\n\\[\n\\begin{align*}\nA &gt; B \\\\\nB &gt; C\n\\end{align*}\n\\]\n\nO ordenamento há de ser transitivo: dado (2), \\(A &gt; C\\), e minha opção preferida é \\(A\\).\n\nDiante dessas alternativas, o indivíduo racional vai saber o que ele quer. Essa estabilidade é importante. Ele vai preferir aquilo que estiver mais alto no seu ordenamento.\n[definição] A decisão coletiva é aquela que, uma vez tomada, vale para todos, independentemente da concordância. O menor grupo possível para tomar uma decisão coletiva (isto é, uma decisão de grupo) é aquele formado por 3 pessoas. De fato, só há decisão em uma dupla se há consenso. Para que uma decisão coletiva seja tomada, precisamos de uma regra. Essa regra estabelece o procedimento através do qual as decisões individuais serão amalgamadas e será definida a decisão coletiva. A regra mais famosa que existe, derivada do utilitarismo, é a regra da maioria.\nEm resumo: os nossos indivíduos se comportam racionalmente (behavior). Esses indivíduos interagem entre si de acordo com uma regra para produzir decisões coletivas.\nSuponha esses 3 indivíduos e suas ordenações de preferência: \\(X\\) (\\(A &gt; B &gt; C\\)), \\(Y\\) (\\(B &gt; C &gt; A\\)) e \\(Z\\) (\\(C &gt; A &gt; B\\)). Se temos \\(A\\) contra \\(B\\), \\(A\\) ganha; para \\(B\\) contra \\(C\\), \\(B\\) ganha; mas para \\(A\\) contra \\(C\\), \\(C\\) ganha, já que \\(A\\) é preferida contra \\(B\\) e \\(B\\) é preferida contra \\(C\\) – uma contradição. Não há transitividade, então a racionalidade não pode ser aplicada. Esse é o Paradoxo de Condorcet.\nTeorema do Júri: se você assume que cada indivíduo tem uma probabilidade um pouco maior que 50% de tomar a decisão certa, qual é a probabilidade de o júri (coletivo de indivíduos) acerte? (i.e., julgue corretamente entre culpado ou inocente) A ideia do teorema é que, se eu aumento o eleitorado, a probabilidade de tomar a decisão certa aumenta.\nA decisão coletiva não pode ser pensada com os mesmos atributos da decisão individual.\nComo, então, estabilizamos as decisões coletivas? Uma solução muito boa foi a solução de Duncan Black: o Teorema do Eleitor Mediano. Trabalhamos, aqui, com a noção de espaço político – ou seja, existe um espaço de conflito. Há também uma restrição para o formato das preferências: a noção de “pico único” – a preferência possui um ponto de máximo, e à medida que eu me afasto desse máximo, a utilidade diminui.\nEu defino os agentes em um espaço unidimensional (i.e., uma reta) – o espaço do conflito político, e esses agentes estão distribuídos de acordo com os seus respectivos pontos ideais. O pressuposto importante (que nos permitimos fazer por conta da teoria da racionalidade) é que eu sempre prefiro um ponto mais próximo do meu ponto ideal do que um ponto distante. Se eu aplico essa lógica para todos os eleitores, eu chego à conclusão de que o ponto de equilíbrio é a posição do eleitor mediano. A preferência do eleitor mediano é aquela que ganha de todas as demais preferências.\nMas e aí? A vida política é multidimensional, então os pressupostos de Duncan Black fazem com que a teoria perca operacionalidade. Dito isso, a realidade política não é o caos. Como há tanta estabilidade se tudo indica que o resultado seria o caos? Regras! Ou melhor, instituições. O que as instituições fazem é “chapar” o espaço do conflito, tornando-o unidimensional ou no mínimo tornando as preferências mais homogêneas. As instituições forjam um espaço unidimensional – nos espaços decisórios, teremos apenas pessoas com preferências próximas e, portanto, barganham nos mesmos termos.",
+    "crumbs": [
+      "Aulas",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Fundamentos</span>"
+    ]
+  },
+  {
+    "objectID": "aulas/aula-1.html#neo-institucionalismo-diermeierkrehbiel2003institutionalism",
+    "href": "aulas/aula-1.html#neo-institucionalismo-diermeierkrehbiel2003institutionalism",
+    "title": "2  Fundamentos",
+    "section": "Neo-institucionalismo (Diermeier and Krehbiel 2003)",
+    "text": "Neo-institucionalismo (Diermeier and Krehbiel 2003)\n\nO indivíduo, decisor, tem a racionalidade como atributo principal\nAs regras, constraints, são limitadores\n\nA equação fundamental do meu fenômeno de interesse é:\n\\[\n\\text{Fenomeno político} = \\text{Preferência} + \\text{Regra}\n\\]\nPrecisamos identificar quem são os meus decisores e definir as suas distribuições de preferências. Nada mais importa na análise do indivíduo com exceção disso. O segundo passo é identificar quais são os constrangimentos dos indivíduos na busca pelas suas preferências – tendo essas duas coisas, serei capaz de construir meu argumento sobre o fenômeno político de interesse. Daí eu derivo algum tipo de argumento, hipóteses, e o teste empírico.\nIsso é uma maneira de modelar a realidade. Precisamos, então, assumir algumas coisas. Em primeiro lugar, assumimos que as regras são exógenas ao indivíduo e fixas – i.e., do ponto de vista analítico, assumimos que as regras são dadas, embora, é claro, em algum dado momento elas sejam criadas pelos próprios indivíduos. Depois, assumimos que as preferências individuais são dadas, embora variem de indivíduo para indivíduo.\nComo o Neo-institucionalismo se diferencia da concepção de core? O que a teoria do core faz é mostrar como, num espaço político multidimensional, as instituições forjam um espaço político unidimensional no qual há soluções possíveis (onde o core não é vazio). Nesse contexto, os indivíduos vão barganhar as soluções de equilíbrio. Exatamente onde a solução vai estar dentro do core é uma questão de barganha, isto sendo dizer sob quais condições você aceita tal ou tal solução. A barganha reduz o core até chegar a uma solução.\nUma aplicação: quando chega no Legislativo, o espaço do conflito é absolutamente multidimensional. Isso é caos, lógico. As instituições criam fóruns de decisão unidimensionais, para discutir assuntos únicos – no caso do legislativo norte-americano1, as comissões. É isso que explica o surgimento de comissões pela teoria do core.\nQuando eu forjo a unidimensionalidade, eu crio um ambiente de pessoas extremamente comprometidas com esse único tema. Mas isso afasta as decisões da comissão do parlamentar mediano! Observe, no entanto: se isso vai passar pelo plenário, como eu posso esperar que haja aquiescência, se os acordos que vêm da comissão são distantes do parlamentar mediano? É por isso que a ideia de core não funciona – não é essa a metodologia adequada para entender a dinâmica política. Não podemos usar uma ideia cooperativa, mas sim uma não-cooperativa (Diermeier and Krehbiel 2003).\nO jogo não-cooperativo mais famoso é o dilema do prisioneiro. Nesse caso, o jogo é ganho pela estratégia dominante: independente do que os outros façam, eu tomo sempre a mesma ação. Metodologicamente, preferimos não usar a ideia de barganha como a forma de analisar um fenômeno político.\nEquilíbrio de Nash: descreve uma situação em que nenhum jogador tem incentivo para mudar sua estratégia unilateralmente, dado o que os outros jogadores estão fazendo. Ou seja: eu defino como melhor resposta dado o que o outro está fazendo. Ninguém tem incentivo para mudar o seu comportamento – portanto, o dilema do prisioneiro é um caso particular do equilíbrio de Nash.\nÉ importante não confundir equilíbrio com soluções ótimas. A definição de equilíbrio de Nash é que cada um escolhe o melhor para si dado o que o outro está fazendo. Esse equilíbrio, no entanto, não significa que eu estou fazendo o que poderia ser ótimo no conjunto.\nOs constrangimentos definem o que eu e os outros podem fazer, e isso faz parte do jogo. Eu adoto um comportamento, os demais observam esse comportamento, e as pessoas fazem o mesmo. Nesse caso, há equilíbrio, porque ninguém tem incentivo para mudar. Isso é diferente do core. O que Diermeier and Krehbiel (2003) defende é que essa é a melhor estratégia para analisar o fenômeno político: as regras são fixas, os atores tomam as melhores escolhas dado o que os demais estão fazendo, modelamos a interação, encontramos o equilíbrio e testamos hipóteses.\n\n\n\n\nDiermeier, Daniel, and Keith Krehbiel. 2003. “Institutionalism as a Methodology.” Journal of Theoretical Politics 15 (2): 123–44. https://doi.org/10.1177/0951629803015002645.\n\n\nGilboa, Itzhak. 2012. Rational Choice. Cambridge, MA: The MIT Press.",
+    "crumbs": [
+      "Aulas",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Fundamentos</span>"
+    ]
+  },
+  {
+    "objectID": "aulas/aula-1.html#footnotes",
+    "href": "aulas/aula-1.html#footnotes",
+    "title": "2  Fundamentos",
+    "section": "",
+    "text": "Afinal, isso tudo foi pensando em vista da política dos Estados Unidos.↩︎",
+    "crumbs": [
+      "Aulas",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Fundamentos</span>"
+    ]
+  },
+  {
+    "objectID": "aulas/aula-2.html",
+    "href": "aulas/aula-2.html",
+    "title": "3  Estudos pioneiros",
+    "section": "",
+    "text": "Schlesinger (1966), introdução",
+    "crumbs": [
+      "Aulas",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Estudos pioneiros</span>"
+    ]
+  },
+  {
+    "objectID": "aulas/aula-2.html#footnotes",
+    "href": "aulas/aula-2.html#footnotes",
+    "title": "3  Estudos pioneiros",
+    "section": "",
+    "text": "Bom… com certo otimismo, é claro.↩︎",
+    "crumbs": [
+      "Aulas",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Estudos pioneiros</span>"
+    ]
+  },
+  {
+    "objectID": "aulas/bibliography.html",
+    "href": "aulas/bibliography.html",
+    "title": "4  Bibliografia",
+    "section": "",
+    "text": "Diermeier, Daniel, and Keith Krehbiel. 2003. “Institutionalism as\na Methodology.” Journal of Theoretical Politics 15 (2):\n123–44. https://doi.org/10.1177/0951629803015002645.\n\n\nFenno, Richard F. 1978. Home Style: House Members in Their\nDistricts. Boston: Little, Brown.\n\n\n———. 1987. “Congressmen in Committees.” In Congress:\nStructure and Policy, edited by Matthew D. McCubbins and Terry\nSullivan. Cambridge: Cambridge University Press.\n\n\nGilboa, Itzhak. 2012. Rational Choice. Cambridge, MA: The MIT\nPress.\n\n\nPolsby, Nelson W. 1968. “The Institutionalization of the\nUS House of Representatives.” American Political\nScience Review 62 (1): 144–68.\n\n\nSamuels, David. 2003. Ambition, Federalism, and Legislative Politics\nin Brazil. Cambridge: Cambridge University Press.\n\n\nSchlesinger, Arthur M. 1966. Ambition and Politics: Political\nCareers in the United States. Chicago: Rand McNally.",
+    "crumbs": [
+      "Aulas",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Bibliografia</span>"
+    ]
+  }
+]

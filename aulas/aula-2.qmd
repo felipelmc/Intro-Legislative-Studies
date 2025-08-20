@@ -1,0 +1,133 @@
+---
+title: "Estudos pioneiros"
+bibliography: ../bibliography.bib
+author:
+  - name: Felipe Lamarca
+    email: felipelamarca@iesp.uerj.br
+fontsize: 11pt
+---
+
+# @Schlesinger1966AmbitionPolitics, introdução {.unnumbered}
+
+> In our concern with the complexity of human behavior, we should not forget that political institutions, and others as well, work because they simplify motives, because they make the behavior of politicians understandable and predictable. A political system becomes stable when it is able to control men's political ambitions. [@Schlesinger1966AmbitionPolitics, p. 2]
+
+> A political system unable to kindle ambitions for office is as much in danger of breaking down as one unable to restrain ambitions. Representative government, above all, depends on supply of men so driven; the desire for election and, more important, for reelection becomes the electorate's restraint upon its public officials. No more irresponsible government is imaginable than one of high-minded men unconcerned for their political futures. [@Schlesinger1966AmbitionPolitics, p. 2]
+
+> What is needed, therefore, is a theory of politics which explicitly accepts the assumption that politicians respond primarily to their office goals, in effect an ambition theory of politics, rather than a theory which explains personal ambitions. 
+>
+> In one sense the party theory of these men [Schattschneider, Schumpeter Downs] is ambition theory: its basic assumption is that the party is ambitious to govern and that it adopts policies which permit it to govern under the rules of political competition. Ambition in party theory, however, is that of the team rather than of individual politicians. As such, party theory is a gross simplification of the democratic process, whose most interesting and important problems concern why politicians do or do not act as teams. [@Schlesinger1966AmbitionPolitics, p. 4]
+
+> Party theory, by assuming cohesive behavior, is, in effect, a **special case of ambition theory** -- one of whose principal problems is that of explaining when politicans will act cohesively. [@Schlesinger1966AmbitionPolitics, p. 5, grifo meu]
+
+> **The central assumption of ambition theory is that a politician's behavior is a response to his office goals**. Or, to put it another way, the politician as officeseeker engages in political acts and makes decisions appropriate to gaining office. [@Schlesinger1966AmbitionPolitics, p. 6, grifo meu]
+
+> Since it is possible to assign specific ambitions to individual politicians except at the time when a man openly seeks an office, we can develop a theory of ambitions only if we adopt reasonable assumptions about when such ambitions occur. The most reasonable assumption is that ambition for office, like most other ambitions, develops with a specific situation, that it is a response to the possibilities which lie before the politician. [@Schlesinger1966AmbitionPolitics, p. 8]
+
+> My basic inference, then, should be clear: the ambitions of any politician flow from the expectations which are reasonable for a man in his position. Obviously the inference will not hold true in all cases, but I assume that it holds true in enough cases to permit generalizations about the impact of personal ambitions upon the political system. [@Schlesinger1966AmbitionPolitics, p. 9]
+
+> A politician's biography is, after all, the story of one man's political ambitions. It may not tell us all of his aspirations, when they emerged or when they changed. But it does tell us what overt moves he has made toward gaining public office. We can say with certainty that, whatever other ambitions he had, these office ambitions he did have. Thus, when a congressman becomes a senator, the interesting questions do not revolve entirely around the impact of his congressional experience upon his senatorial behavior; there is also the effect of his ambition to become a senator upon this behavior in the lower hourse. Looking back on a man's career, we can see where he was going and attempt to determine what relationship existed between his future and his behavior at any previous stage. True, we cannot tell all of his ambitions from his career; but we can tell some, and particularly those which mattered. [@Schlesinger1966AmbitionPolitics, p. 14]
+
+> In ambition theory the emphasis in analyzing such data is not on _how_ one advances in politics but on _who_ will want to advance. [@Schlesinger1966AmbitionPolitics, p. 15]
+
+> By the size of the structure I mean the total number of opportunities or chances, good or bad, for getting ahead in politics. In other words, the size of the structure consists of the number of offices available and the frequency with which new men attain them. The shape of the structure derives from the ways in which men typically advance in politics. If everyone has an equal chance at every office there is no form. Differential chances give shape to the structure of the opportunities. [@Schlesinger1966AmbitionPolitics, p. 20]
+
+# @Polsby1968InstitutionalizationHouse {.unnumbered}
+
+> Para os propósitos deste estudo, consderemos que uma organização institucionalizada possui três grandes características: 1) ela é relativamente bem delimitada, isto é, diferenciada de seu ambiente. Seus membros são facilmente identificáeis, é relativamente difício tornar-se um membro e seus líderes são recrutados principalmente no interior da organziação. 2) A organização é relativamente complexa, ou seja, suas funções são internamente separadas sob alguma base regular e explícita; suas partes não são totalmente intercambiáveis e, para pelo menos alguns propósitos importantes, suas partes são interdependentes. Há uma divisão do trabalho em que os papéis são especificados e há expectativas amplamente compartilhadas a respeito do desempenho dos papéis. Há padrões regularizados de recrutamento para os papéis e de mudança de um papel para o outro. 3) Finalmente, a organização tende a user critérios universais mais que particulares e métodos automáticos mais que discricionários para conduzir seus assuntos internos. Precedentes e regras são seguidos; sistemas de mérito substituem o favoritismo e o nepotismo; códigos impessoais suplantam as preferências pessoais como prescrições para o comportamento. [@Polsby1968InstitutionalizationHouse, p. 222-223]
+
+> Resumidamente, o crescimento da complexidade interna pode ser mostrado por três vias: no crescimento da autonomia e da importância das comissões, no crescimento das agências vinculadas à liderança partidária e no aumento geral na provisão de diversos emolumentos e auxílios aos membros, na forma de espaço de escritório, salários, subvenções, apoio de pessoal e pessoal para as comissões. [@Polsby1968InstitutionalizationHouse, p. 231]
+
+> A melhor prova de que possuímos de uma mudança das tomadas de decisões discricionárias para automáticas é o aumento da antiguidade como um critério que determina a hierarquia nas comissões e o aumento da prática de decidir eleições contestadas na Câmara estritamente com base no mérito. [@Polsby1968InstitutionalizationHouse, p. 238]
+
+> Parece razoável concluir que uma das principais mudanças de longo prazo na Câmara dos Deputados dos Estados Unidos foi no sentido de maior institucionalização. Sabendo disso, podemos formular, pelo menos, três questões: o que a causou? O que se segue disso? O que esse caso pode nos dizer a respeito do processo em geral? Não é apenas por falta de espaço que nossas respostas para cada uma dessas questões será breve e altamente especulativa. [@Polsby1968InstitutionalizationHouse, p. 243]
+
+# @Fenno1987CongressmenCommittees {.unnumbered}
+
+> This book rests on a simple assumption and coveys a simple theme. The assumption is that congressional committees matter. The theme is that congressional committees differ. Both are commonplace. But the book has been written because those who think committees matter and those who think committees differ have not yet fully accomodated one to the other -- not intellectually nor in practice. [@Fenno1987CongressmenCommittees, p. 147] 
+
+> Our theme is, then, that committees differ from one another. And, we shall argue, they differ systematically. We shall examine their similarities and differences with respect to five variables -- member goals, environmental constraints, strategic premises, decision-making processes, and decisions. We shall pursue the following line of argument. The members of each congressional committee have certain goals that they want to achieve through membership on a committee. If there is a high level of consensus on goals, they will organize their committee internally in ways that seem likely to aid them in achieving these goals. However, each committee operates within a distinctive set of environmental constraints -- most particularly the expectations of influential external groups. Committee members will, therefore, also organize their committee internally in ways that seem likely to satisfy the expectations of these groups that make up their environment. The members of each committee will develop strategies for accommodating the achievement of their individual goals to the satisfaction of key environmental expectations. These strategies become the proximate premises on which each committee's internal decision-making processes are based. From these strategies, operationalized as decision rles, flow committee decisions. [@Fenno1987CongressmenCommittees, p. 149]
+
+> Of all the House-imposed constraints, the most consequential is the informal seniority rule for the designation of the committee chairman (and ranking minority member). Because of his prerogatives, prestige, and leadership opportunities, the chairman is normally the most influential member of a committee. [...]. In this sense, the rule stands as a formidable limitation on the ability of a committee's members to shape their internal structure. [@Fenno1987CongressmenCommittees, p. 150]
+
+> Ways and Means members want influence in the House, a goal that forces internal concern for their reputation in the House and for winning on the House floor. Only if the committee, as a collectivity, retains the confidence, respect, and support of the House will the individual Committee member gain the influence he seeks. To this end, members carefully circumscribe internal partisanship and try to behave in what House members will regard as a responsible, responsive manner. [@Fenno1987CongressmenCommittees, p. 152]
+
+> Partisanship on Education and Labor and Ways and Means, we have seen, is primarily a response to envieronmental partisanship. Foreign Affairs works in response to executive-led coalitions that make strenuous efforts in exactly the opposite direction -- seeking bipartisan consensus support for their foreign policy initiatives. [@Fenno1987CongressmenCommittees, p. 156]
+
+> In terms of their individual goals, no two sets of committee members could be farther apart than those serving on Post Office and Foreign Affairs. One group wants committee service to help them get re-elected; the other group wants to help make policy on an international scale. We found their environments, however, to be strikingly similar. [@Fenno1987CongressmenCommittees, p. 158]
+
+> All things being equal, the greater the concern for floor success, the more a committee's members will act to depress internal partisanship. [@Fenno1987CongressmenCommittees, p. 159]
+
+> We have tried to demonstrate, in this chapter, that each committee's internal decision-making processes are shaped by its members' goals, by the constraints placed upon the members by interested outside groups, and by the strategic premises that members adopt in order to accommodate their personal goals to environmental constraints. One overall comparative dimension suggested by the independent variable of the analysis involves the relative impact of the members themselves and of external groups as decision-making _autonomy_. [@Fenno1987CongressmenCommittees, p. 176]
+
+# @Fenno1978HomeStyle, cap. 1 {.unnumbered}
+
+> If one essential aspect of "the geographical constituency" is seen as its location and boundaries, another is its internal makeup. And House membersdescribe their districts' internal makeup using political science's most familiar demographic and political variables: socioeconomic structure, ideology, ethnicity, residential patterns, religion, partisanship, stability, diversity, etc. Every congressman, in his mind's eye, see his geographical constituency in terms of some special configuration of such variables. [@Fenno1978HomeStyle, p. 2]
+
+> However a congressman comes to his view of the district, it is important that we try to see it as he does. In the one case when I observed two successive House members in the same geographical constituency, their perceptions of "the district" differed considerably. 
+>
+> [...]
+>
+> There is no way that a political scientist could infere these perceptual differences from census data. If, then, behavior is related to such differences, we cannot understand behavior without gathering perceptual data. [@Fenno1978HomeStyle, p. 4]
+
+> Each congressman does perceive an explicitly political constituency nested within his geographical constituency. It is composed of those people in the district who he thinks vote for him. We shall call it his _reelection constituency_. [@Fenno1978HomeStyle, p. 8]
+
+> House members use two reference points -- one cross-sectional, the other longitudinal -- in shaping his perception. First, by a process of inclusion and exclusion, they come to a rough approximation of the upper and lower ranges of the reelection constituency. That is to say, there are some votes a member believes he nearly always gets. There are other votes he believes he almost never gets. Among those he thinks he usually gets, the perceived partisan component of the electorate is always a basic element. Every member begins with a perception of his partisan support -- estimated by registration figures or poll data, and by political demography. [@Fenno1978HomeStyle, p. 8]
+
+> Each member of Congress perceives four concentric constituencies: geographic, reelection, primary, and personal. This is not the only way a member sees his or her "constituency"; but it is one way. It is a set of perceptions that emphasizes the context in which, and the strategies by which, the House member seeks electoral support. [...]. The strategies developed for getting and keeping electoral support involve the manipulation of these scopes and intensities. We have taken each member's perceptions as we found them, and have not asked how he or she came by them in the first place. [@Fenno1978HomeStyle, p. 27]
+
+> [...] although political scientists may ask, in the manner of a regression analysis, which campaign activity contributed how much to the election results, a view from over the member's shoulder may reveal that he or she does not think in terms of the weights of variables. We might help ourselves by seeing the electoral situation the way the members see it, to ask ourselves the questions they ask: How much did I win by? Who supported me? Who worked especially hard for me? What net effect did the changes from last time have on the outcome this time? If members of Congress are more uncertain than we think they are and if they calculate more configuratively than we think they do, we might find these altered perspectives worth assimilating into our knowledge. Later, when we find House members acting conservatively, unwilling to take risks, preoccupied with self-preservation, and relying on their homegrown rules of thumb, we shall at least be aware of the perceptions underlying such postures. [@Fenno1978HomeStyle, p. 28-29]
+
+# Anotações de aula {.unnumbered}
+
+O ponto ideal do mediano é aquele que ganha de todos os demais sob a regra majoritária. Vamos supor que quem envia a política para voto é a comissão, assim como detém o direito de não propor a política. Também vamos trabalhar com a ideia de que o mediano pode emendar a política.
+
+Se o status quo está distante da comissão e o mediano está entre um e outro, então a comissão tem incentivo para propor a política; no entanto, se o status quo está entre a comissão e o mediano, então a comissão não tem incentivo para propor a política. No caso 1, a comissão abre mão do seu _gate keeping power_.
+
+**Caso 1:** comissão --------- _status quo_ ---------- mediano
+
+**Caso 2:** comissão --------- mediano ------------- _status quo_
+
+Essa é uma extensão da teoria do eleitor mediano. De fato, o mediano puxaria o _status quo_ para mais próximo dele (e para mais longe da comissão) por sua capacidade de emendar; no segundo caso, a comissão teria incentivos para propor a política para aproximar dela o _status quo_, já que ela está mais perto do eleitor mediano do que do _status quo_.
+
+@Schlesinger1966AmbitionPolitics avalia ambição empiricamente a partir da busca por cargos. Numa discussão mais filosófica, o alcance da estabilidade institucional é uma espécie de institucionalidade de equilíbrio, que permite o controle da ambição sem eliminá-la -- ecoando Os Federalistas, colocamos ambição contra ambição para controlá-la sem limitar liberdades. O que o autor propõe é uma teoria "ambiciosa" da política, ao invés de uma teoria que explica as ambições pessoais. Queremos os resultados sistêmicos disso.
+
+A premissa da reeleição pode nos fazer errar a análise. A teoria da ambição é mais abrangente que a teoria da reeleição para analisar o comportamento do político
+
+**Direção da ambição** [@Schlesinger1966AmbitionPolitics]:
+
+- Discreta: o político amador, sem ambição
+- Estática
+- Progressiva
+
+O importante na discussão sobre legislativo é que, a partir de um certo momento, o que caracteriza a carreira do político norte-americano é a ambição _estática_, à medida em que a política se profissionaliza. A ambição é progressiva até alcançar a House, e quando o faz, a ambição se torna estática. Neste ponto, podemos assumir a teoria da reeleição como a teoria da ambição.
+
+Quando saímos dos Estados Unidos, tornamos essa esquemática um pouco mais complexo. David Samuels tem um clássico para analisar o comportamento legislativo no Brasil [@Samuels2003AmbitionFederalism]. No Brasil, é importante se manter na carreira política, torcando entre Executivo e Legislativo para manter-se na política; de fato, não é uma progressão cartesiana como na teoria de @Samuels2003AmbitionFederalism.
+
+Podemos entender a direção da ambição de acordo com a estrutura de oportunidades. De fato, para ordenar as ambições, precisamos saber sua estrutura e atribuir de forma assimétrica as chances. Se tivéssemos um sistema em que todos concorressem a tudo em condições iguais, seria impossível hipotetizar qualquer coisa.
+
+@Polsby1968InstitutionalizationHouse é talvez um dos textos mais citados pelos estudos legislativos e usa o conceito de **institucionalização**, o que, em algum momento, passou a se confundir com profissionalização da política. Uma segunda observação é que o conceito de institucionalização é muito utilizado na literatura sobre partidos (_institucionalização do sistema partidário_, "os partidos não são institucionalizados").
+
+Uma democracia vai se tornando mais forte na medida em que o órgão mais importante de um sistema representativo se torna forte; o órgão mais forte do sistema representativo é o legislativo. É, portanto, um tema relevante para o analista saber como o legislativo se fortalece no sistema. Trata-se de um tema de análise importante, porque a democracia se fortalece à medida que o legislativo se fortalece[^1].
+
+Para dar conta da questão do fortalecimento, vamos utilizar o termo _institucionalização_ -- i.e., uma _proxy_ de fortalecimento. E o que faz um órgão ser considerado institucionalizado?
+
+- Fronteiras bem definidas -- as ambições dos membros são estáticas, definindo bem quem é e quem não é legislador, quem é e quem não é membro da organização [@Schlesinger1966AmbitionPolitics]. Aqui, estudamos carreiras.
+- Complexidade. Aqui, estudamos comissões permanentes -- não em termos de número, mas de poder.
+- Universalismo
+
+O ponto fundamental aqui é que, a partir de um certo momento, as comissões deixam de ser qualquer outra coisa que não comissões permanentes, com monopólio sobre temas particulares. Isso é feito para dar conta do aumento da carga de trabalho.
+
+Vimos na aula de fundamentos as premissas da racionalidade. @Schlesinger1966AmbitionPolitics nos ajuda a entender a racionalidade do ponto de vista da ambição. O que @Fenno1987CongressmenCommittees e @Fenno1978HomeStyle faz é olhar para a ambição dos congressistas e o ambiente que eles atuam e entender os outcomes dessa conjunção. Fenno gostava de ir a campo ficar _over the shoulder_ para entender como os congressistas sem comportam.
+
+@Fenno1978HomeStyle foca na relação do congressista com a base, num trabalho etnográfico que durou 7 anos. Trata-se de um trabalho que foca em como o congressista _percebe_ o seu eleitorado, e como isso afeta as suas estratégias: é a teoria do congressista sobre como ele entende o próprio eleitorado. 
+
+Estamos lidando aqui com alguns conceitos fundantes: ambição, reeleição, estrutura das oportunidades, teoria dos círculos concêntricos (este último do Fennon).
+
+Círculos concêntricos para pensar estratégia eleitoral: distrito $\rightarrow$ base de reeleição $\rightarrow$ eleitores fiéis $\rightarrow$ círculo íntimo. É claro, as circunscrições desses círculos são absolutamente incertas para os candidatos, que agem o tempo todo sob incerteza. O objetivo é mostrar que a maneira como o político entende seu eleitorado é complexa.
+
+A noção demográfica do distrito, inclusive, pode ser absolutamente subjetiva e variada a depender do congressista. Não se trata de uma simples descrição de censo, por exemplo, mas abarca também uma dimensão subjetiva da interpretação do político. De fato, nos dois casos, independentemente da interpretação, os congressistas têm isso em mente para determinar suas estratégias políticas.
+
+Outro aspecto importante desse círculo do eleitorado da reeleição é as eleições anteriores. O congressista é, o tempo todo, tomado pela incerteza; sua única certeza é quantos votos fez na eleição anterior, e utiliza isso para traçar uma estratégia incremental para avaliar se está "ganhando ou perdendo" dependendo de como ele entende o próprio eleitorado.
+
+[^1]: Bom... com certo otimismo, é claro.
+
