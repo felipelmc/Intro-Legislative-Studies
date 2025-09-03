@@ -1,0 +1,147 @@
+---
+title: "Structure-induced equilibrium and legislative choice [@ShepsleWeingast1981StructureInduced]"
+subtitle: "Seminário de Introdução aos Estudos Legislativos"
+author: "Felipe Lamarca (IESP-UERJ)"
+institute: "Instituto de Estudos Sociais e Políticos (IESP-UERJ)"
+date: "2025-09-02"
+format:
+    beamer:
+        theme: "metropolis"
+        colortheme: "spruce"
+        fonttheme: "professionalfonts"
+        linkcolor: teal
+        fontsize: 10pt
+bibliography: ../bibliography.bib
+---
+
+# Uma introdução ao problema
+
+> In the area of legislative choice, social theorists have focused on the equilibrium properties of pure majority rule (PMR), operating according to the implicit belief that whatever is true about the PMR mechanism also applies to institutions based upon it. **This view has encouraged the study of what seemed to be the general case, thereby avoiding the narrower study of special cases such as those that might be observed in prominent real-world legislatures e.g., the U.S. Congress.** [@ShepsleWeingast1981StructureInduced, p. 503, grifo meu]
+
+A literatura até aquele momento argumentava que a PMR conduzia a resultados altamente **instáveis**.
+
+---
+
+# É matemática!
+
+> Assume an $m$-dimensional policy space, $X$, of feasible outcomes, and consider choice over $X$ by an $n$-person legislature. The legislature operates under a system of pure majority rule (PMR) in which any legislator (or group of legislators) may make proposals to alter the status quo, $x^0$. Any proposal that commands a majority against $x^0$ beats it. In this setting, a _majority rule equilibrium_ (MRE) is an element of the feasible set that is unbeaten by any other element of $X$ in paired comparison. [@ShepsleWeingast1981StructureInduced, p. 504]
+
+O ponto de equilíbrio é aquela proposta que ganha de todas as outras. Esse ponto só existe, no entanto, sob distribuições de preferências extremamente específicas -- o que raramente é o caso.
+
+---
+
+# É matemática!
+
+Seja $W(x)$ o _majority-rule win set at_ $x$:
+
+$$
+\forall x \in X, W(x) \neq \emptyset
+$$
+
+Por conta disso, "[...] majority rule cycles exist, cycles which can be shown to extend over the entire policy space." [@ShepsleWeingast1981StructureInduced, p. 505]. No bom português: **nenhuma decisão é definitiva, e sempre pode ser revertida por uma nova maioria.**
+
+---
+
+# De fato...
+
+> For example, suppose some policy $x$ is arrived at through logrolling or coalition formation. Then, because $W(x)$ is non-empty at $x$, the losers, in combination with some of the winners at $x$, may propose some $y \in W(x)$ that makes this new majority better off at $y$ than in $x$. And nothing in the rules of the PMR game prohibits the new majority from forming and displacing its predecessor. This is the very essence of the nonexistence of equilibrium. [@ShepsleWeingast1981StructureInduced, p. 505]
+
+---
+
+# Pork-barrel
+
+Suponha o processo de pork-barrel. Temos $n$ legisladores, cada um representando um distrito. O vetor de decisões é:
+
+$$
+x = (x_1, x_2, ..., x_n),
+$$
+
+onde cada $x_j$ é o tamanho do projeto no distrito $j$. Para cada distrito, então, o _payoff_ é:
+
+$$
+N_j (x_1, ..., x_n) = b_j (x_j) - t_j \sum^n_{i = 1} c_i (x_i)
+$$
+
+Para aprovar os projetos basta uma coalizão mínima vencedora, que decidirá incluir apenas os projetos dos distritos incluídos na coalizão. Como os custos são divididos entre todos (inclusive os excluídos), há incentivo constante para formar novas coalizões e redistribuir benefícios. Há caos.
+
+---
+
+# O argumento
+
+A PMR pode levar a resultados instáveis, de fato. Mas legislaturas do mundo real raramente a utilizam senão acompanhada de outros mecanismos institucionais que induzem estabilidade -- por exemplo, um sistema de comissões.
+
+Em outras palavras, podemos **induzir estabilidade** a partir de regras institucionais que garanta a existência de alguma resolução estável.
+
+\
+
+> Indeed, what this suggests is that logrolling and other forms of legislative exchange **destroy, not enhance, the possibility of equilibrium**. [@ShepsleWeingast1981StructureInduced, p. 507, grifo meu]
+
+---
+
+# São as regras, estúpido!
+
+E como resolvemos o problema? 
+
+Incluindo regras que **limitem a possibilidade de inclusão de novas propostas na agenda**! Isso encerra os ciclos da PMR.
+
+
+---
+
+# Exemplo 1
+
+**Suponha um cenário ligeiramente modificado de pork-barrel com 5 legisladores:**
+
+O _status-quo vector_ é o $x^0 = (0, 0, 0, 0, 0)$. Qualquer legislador pode decidir por incluir ou não seu projeto em um pacote a ser votado, assumindo que o projeto incluído estará na sua versão mais eficiente possível. Emendas não são permitidas.
+
+Depois, é aplicada a regra majoritária para que os legisladores escolham entre o status-quo e o pacote que o altera, $x^e$. Todos os legisladores estão em melhor situação sob o pacote do que sob o status-quo, então $x^e > x^0$.
+
+É claro que há vários conjuntos de projetos possíveis melhores do que o $x^e$ proposto, mas, sob esse arranjo, _logrolling_ é limitado e o equilíbrio não pode ser perturbado. Há estabilidade.
+
+---
+
+# Exemplo 2 (no artigo, Exemplo 3 -- Tullock, 1967)
+
+::: {.columns}
+::: {.column width="45%"}
+
+![Exemplo 2](figures/example3.png)
+
+:::
+
+::: {.column width="55%"}
+
+\footnotesize
+> For ay point $x$, no point within a certain distance, $d$, may be placed on the agenda. That is, all points within the ball $D(x)$ of radius $d$ around $x$ are not feasible [...]. If, at some point, $x^0$, the majority rule win set, $W(x^0)$, is wholly contained within $D(x^0)$, then $x^0$ is invulnerable in the sense that none of the points that command a majority against $x^0$ may arise for a vote. [@ShepsleWeingast1981StructureInduced, p. 509-510]
+
+:::
+:::
+
+---
+
+# Formalização
+
+Seja $s$ uma coalizão qualquer formada por um ou mais membros e $g_s (x)$ o conjunto de pontos possíveis de serem propostos por $s$ dado um ponto $x$. Além disso, seja $P_s (x)$ o conjunto de propostas preferidas pela coalizão $s$ frente a $x$. Daí:
+
+Um ponto $x$ é vulnerável se e somente se $\exists y$ tal que:
+
+(i) $y \in P_s (x)$ para alguma coalizão $s$
+(ii) $y \in W(x)$ 
+
+Caso contrário, $x$ é invulnerável.
+
+$x^*$ é um _structure induced equilibrium_ se e somente se ele é invulnerável.
+
+
+> Thus, $x^*$ is a SIE iff $W(x^*) \cap P_s (x^*) = \emptyset \forall s$. This says that a point $x^*$ is a SIE if and only if those points which defeat $x^*$ either can be proposed only by those who do not prefer to do so, or cannot be proposed at all. [@ShepsleWeingast1981StructureInduced, p. 512]
+
+---
+
+# Por fim
+
+> Professor Tullock has raised a central question in the confrontation between the abstract models of PMR and majority rule as practiced in real institutions. We believe the decision making stability of real-world legislatures lie in the way theses legislatures institutionalize majority rule. **Logrolling, vote trading, coalition formation, and bargaining are red herrings in this argument. Rather, it is the restrictions on such legislative exchange that promote structure induced equilibrium.** [@ShepsleWeingast1981StructureInduced, p. 514-515, grifo meu]
+
+---
+
+# Referências {.allowframebreaks}
+:::{#refs}
+:::
