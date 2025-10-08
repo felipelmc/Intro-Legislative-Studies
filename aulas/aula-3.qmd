@@ -1,0 +1,57 @@
+---
+title: "Perspectiva distributivista pt. 1"
+bibliography: ../bibliography.bib
+author:
+  - name: Felipe Lamarca
+    email: felipelamarca@iesp.uerj.br
+fontsize: 12pt
+---
+
+# @Mayhew2004ElectoralConnection {.unnumbered}
+
+> Mayhew assumed that legislators were single-minded seekers of reelection and showed how the pursuit of this goal affected the way legislators allocated time, sought publicity, took positions, organized Congress, interacted with each other, dealt with interest groups, and made public policy. [@Mayhew2004ElectoralConnection, p. viii]
+
+> I find the emphasis on the reelection goal attractive for a number of reasons. First, I think it fits political reality rather well. Second, it puts the spotlight directly on men rather than on parties and pressure groups, which in the past have often entered discussions of American politics as analytic phantoms. Third, I think politics is best studied as a struggle among men to gain and maintain power and the consequences of that struggle. Fourth -- and perhaps most important -- the reelection quest establishes an accountability relationship with an electorate, and any serious thinking about democratic theory has to give a central place to the question of accountability. [@Mayhew2004ElectoralConnection, p. 6]
+
+> The discussion to come will hinge on the assumption that United States congressmen are interested in getting reelected -- indeed, in their role here as abstractions, interested in nothing else. Any such assumption necessarily does some violence to the facts, so it is important at the outset to root this one as firmly as possible in reality. A number of questions about that reality immediately arises. [@Mayhew2004ElectoralConnection, p. 13]
+
+> What justifies a focus on the reelection goal is the juxtaposition of these two aspects of it -- its putative empirical primacy and its importance as an accountability link. For analytical purposes, therefore, congressmen will be treated in the pages to come as if they were single-minded reelection seekers. Whatever else they may seek will be given passing attention, but the analysis will center on the electoral connection. [@Mayhew2004ElectoralConnection, p. 17]
+
+> Rather we mean, "Congressman Smith is unbeatable as long as he continues to do the things he is doing." If he stopped answering his mail, or stopped visiting his district, or began voting randomly on roll calls, or shifted his vote record eighty points on the ADA scale, he would bring on primary or November elections troubles in a hurry. It is difficult to offer conclusive proof that this last statement is true, for there is no congressman willing to make the experiment. [@Mayhew2004ElectoralConnection, p. 37]
+
+> It must be emphasized that the average voter has only the haziest awareness of what an incumbent congressmen is actually doing in office. But an incumbent has to be concerned about actors who do form impressions about him, and specially about actors who can marshal resources other than their own votes. Senator Robert C. Byrd (D., W. Va.) has a "little list" of 2,545 West Virginians he regularly keeps in touch with. [@Mayhew2004ElectoralConnection, p. 40]
+
+# Anotações de aula {.unnumbered}
+
+## @Mayhew2004ElectoralConnection {.unnumbered}
+
+Essa é a obra que torna o neo-institucionalismo hegemônico, com elogios de Fenno e Dahl.
+
+Trata-se de um livro monstruoso do ponto de vista de levantamento de bibliografia, e é um ensaio. Escreve num momento em que os economistas vinham fazendo a crítica da economia do bem-estar, fundando a public choice e fazendo análise política (Anthony Downs, Tulloc, Olson etc). Então ele usa essa "artilharia" para construir um modelo de análise que, depois, se torna a pedra fundamental. Com esse livro, torna-se o "patriarca" da chamada perspectiva distributivista.
+
+É uma perspectiva que se apoia num modelo de interação política cooperativo. @Mayhew2004ElectoralConnection pensa a relação política no legislativo como um jogo cooperativo; e essa maneira de pensar a política tem origem em Tullock, n'_O Cálculo do Consenso_. A ideia fundamental é que, tanto na política quanto na economia, é possível que ambas partes obtenham vantagens na troca. Os indivíduos trocam recursos e, se eles se engajarem nessa troca, ambos extraem vantagens mútuas. Isso está na base da interação de mercado.
+
+No entanto, vimos logo no início da disciplina que, no mundo da política que estudamos, nós temos pelo menos 3 indivíduos. Nesses ambientes, precisamos de regras que transformem valores indivíduais em decisões coletivas. A questão é: se uma decisão se põe a todo mundo, como eu posso pensar em ganhos mútuos da troca?
+
+A regra que realmente garante que a decisão política vai ser benéfica para todo mundo é a regra da unanimidade. Agora, note: unanimidade significa que o indivíduo tem poder de veto, e isso é um problema -- existem bens públicos que precisam ser produzidos para que a ordem funcione. Se eu concedo poder de veto ao indivíduo, esses bens não serão produzidos, porque é muito difícil alcançar a unanimidade. A construção do consenso num mundo mais complexo, onde entendemos que a regra da unanimidade não é viável e usamos a regra da maioria, é obtida a partir da barganha, processo através do qual os indivíduos vão revelando as suas reais preferências.
+
+Note que só há incentivo para barganhar quando é necessário produzir bem público com pelo menos 3 indivíduos. No par, com apenas dois indivíduos, o indivíduo tem poder de veto, então não há incentivo para barganha. O custo decisório é função da maioria que eu preciso para decidir; no entanto, à medida que diminuímos o quórum, o valor esperado do custo da decisão aumenta caso a decisão valha para todos.
+
+**Conexão eleitoral:** como nós podemos estabelecer o objetivo do político de maneira analiticamente útil? Vamos olhar o que acontece na conexão eleitoral.
+
+Usando @Schlesinger1966AmbitionPolitics e @Polsby1968InstitutionalizationHouse: quando o político chega ao cargo, ele quer manter-se lá. Uma vez sendo representante, o objetivo é manter-se representante. @Mayhew2004ElectoralConnection usa como abstração analítica a ideia de que os representantes são "_single minded seekers of reelection_". O representante que quer se reeleger quer tornar o seu distrito num distrito "seguro" (_safe_, no lugar de um distrito marginal). 
+
+O distrito marginal é aquele que é dividido meio a meio, e o representante ganha ~51% dos votos, com vitória apertada. Se trabalhamos com essa visão do congressista tendo por objetivo se reeleger, seu objetivo é manter seu distrito seguro -- portanto, na próxima eleição, quero colocar uma margem de vitória maior. E o que eu posso fazer para tornar o meu distrito seguro? Essa é a questão da conexão eleitoral!
+
+Que atividades são eficientes disponíveis para tornar o distrito seguro? Uma atividade que não é eficiente é, por exemplo, tentar melhorar a macroeconomia do país. O truque é pensar pela cabeça do legislador para compreender quais atividades são eficientes: propaganda, petição de crédito (pork barrel, case work -- de modo altamente agressivo) e tomada de posição (simbolismo, votação nominal -- com muita cautela). Para tornar meu distrito seguro, eu preciso ter um gabinete forte e estar numa comissão e numa subcomissão que se alinhe aos objetivos do meu distrito. O gabinete é mais fundamental que o partido.
+
+As políticas produzidas por esse esquema são caracterizadas pelo particularismo e, quando são questões nacionais, há truncagem. No entanto, se levamos esse esquema ao limite, o sistema explodiria. Mas como então não explode? Por conta das instituições de proteção [@Mayhew2004ElectoralConnection].
+
+## @WeingastMarshall1988IndustrialOrganizationCongress {.unnumbered}
+
+A perspectiva distributiva é o fundamento do artigo de @WeingastMarshall1988IndustrialOrganizationCongress. Trabalham com a ideia de que os congressistas agem visando sua reeleição, e pensam que tipo de instituições os atores vão desenvolver a partir dessa motivação. 
+
+A solução que os agentes econômicos encontraram para minimizar custos de transação é a integração vertical: torna o ambiente mais previsível. O que Mayhew faz é aplicar essa lógica ao Congresso -- isto é, há agentes agindo por interesse próprio, com interesse de se reeleger, e os interesses são diversos. Uma premissa imposta é de que os partidos não são suficientes para controlar os deputados. 
+
+O mecanismo que faz com que o sistema não "exploda" é o sistema de comissões, em que há uma jurisdição exclusiva sobre diferentes áreas de interesse, conferindo, em certa medida, poder de agenda. 
+

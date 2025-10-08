@@ -7,6 +7,10 @@ author:
 fontsize: 12pt
 ---
 
+# @Gilboa2012RationalChoice
+
+# @DiermeierKrehbiel2003Institutionalism
+
 # Anotações de aula {.unnumbered}
 
 ## Alguns conceitos iniciais {.unnumbered}

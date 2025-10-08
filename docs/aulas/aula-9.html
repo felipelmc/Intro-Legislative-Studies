@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.23">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Felipe Lamarca">
+
+<title>10&nbsp; Testando as perspectivas – Introdução aos Estudos Legislativos</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../aulas/bibliography.html" rel="next">
+<link href="../aulas/aula-8.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-7271f29f9498218151f3120baddb7363.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-226bd0f977fa82dfae4534cac220d79a.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-684fd4d5cca103f0a36d8d6452d65d79.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-e48631cd0f686fc60c0a94b589431da6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-684fd4d5cca103f0a36d8d6452d65d79.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    window.setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      window.setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    window.hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(darkModeDefault) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const darkModeDefault = false;
+    document.querySelector('link.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !window.hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+    };
+    // Switch to dark mode if need be
+    if (window.hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../aulas/aula-1.html">Fundamentos</a></li><li class="breadcrumb-item"><a href="../aulas/aula-9.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Testando as perspectivas</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Introdução aos Estudos Legislativos</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Apresentação do curso</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Fundamentos</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../aulas/aula-1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Fundamentos</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../aulas/aula-2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Estudos pioneiros</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../aulas/aula-3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Perspectiva distributivista pt.&nbsp;1</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../aulas/aula-4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Perspectiva distributivista pt.&nbsp;2</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../aulas/aula-5.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Perspectiva partidária pt.&nbsp;1</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../aulas/aula-6.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Perspectiva partidária pt.&nbsp;2</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../aulas/aula-7.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Perspectiva informacional pt.&nbsp;1</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../aulas/aula-8.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Perspectiva informacional pt.&nbsp;2</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../aulas/aula-9.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Testando as perspectivas</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../aulas/bibliography.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Bibliografia</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#groseclose1994testingcommitteecomposition" id="toc-groseclose1994testingcommitteecomposition" class="nav-link active" data-scroll-target="#groseclose1994testingcommitteecomposition"><span class="header-section-number">11</span> <span class="citation" data-cites="Groseclose1994TestingCommitteeComposition">Groseclose (1994)</span></a></li>
+  <li><a href="#epsteinohalloran1999delegatingpowers-chapters-1-4" id="toc-epsteinohalloran1999delegatingpowers-chapters-1-4" class="nav-link" data-scroll-target="#epsteinohalloran1999delegatingpowers-chapters-1-4"><span class="header-section-number">12</span> <span class="citation" data-cites="EpsteinOHalloran1999DelegatingPowers">Epstein and O’Halloran (1999)</span>, chapters 1 &amp; 4</a>
+  <ul class="collapse">
+  <li><a href="#chapter-1-paths-of-policy-making" id="toc-chapter-1-paths-of-policy-making" class="nav-link" data-scroll-target="#chapter-1-paths-of-policy-making"><span class="header-section-number">12.1</span> Chapter 1: Paths of Policy Making</a></li>
+  <li><a href="#chapter-4-the-decision-to-delegate" id="toc-chapter-4-the-decision-to-delegate" class="nav-link" data-scroll-target="#chapter-4-the-decision-to-delegate"><span class="header-section-number">12.2</span> Chapter 4: The Decision to Delegate</a></li>
+  </ul></li>
+  <li><a href="#mccubbins1984congressionaloversightoverlooked" id="toc-mccubbins1984congressionaloversightoverlooked" class="nav-link" data-scroll-target="#mccubbins1984congressionaloversightoverlooked"><span class="header-section-number">13</span> <span class="citation" data-cites="McCubbins1984CongressionalOversightOverlooked">McCubbins and Schwartz (1984)</span></a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../aulas/aula-1.html">Fundamentos</a></li><li class="breadcrumb-item"><a href="../aulas/aula-9.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Testando as perspectivas</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Testando as perspectivas</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Felipe Lamarca <a href="mailto:felipelamarca@iesp.uerj.br" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="groseclose1994testingcommitteecomposition" class="level1" data-number="11">
+<h1 data-number="11"><span class="header-section-number">11</span> <span class="citation" data-cites="Groseclose1994TestingCommitteeComposition">Groseclose (<a href="bibliography.html#ref-Groseclose1994TestingCommitteeComposition" role="doc-biblioref">1994</a>)</span></h1>
+<blockquote class="blockquote">
+<p>Tests of theories of composition of congressional committees are often problematic. Among the problems are presumed normality of the data, presumed cardinal meaning of the data, and the use of a mean score of committee preference when the corresponding theory only contains implications for the median score. This essay introduces a testing method that avoids these problems. It tests five hypotheses: (1) committees are preference outliers, (2) Democrats stack their slots of committees with liberal outliers, (3) Republicans stack their slots with conservative outliers, (4) committees are representative of the whole House, and (5) Democratic contingents on committees are representative of the whole Democratic caucus. Strong support, however, cannot be found for any of the hypotheses. The preference outliers hypothesis receives the most support, but even here the evidence is mixed. <span class="citation" data-cites="Groseclose1994TestingCommitteeComposition">(<a href="bibliography.html#ref-Groseclose1994TestingCommitteeComposition" role="doc-biblioref">Groseclose 1994, 440</a>)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>In tests of committee composition the most common assumption about data distribution is that preferences of committee and floor members follow a normal distribution. Although often not explicitly stated, the assumption is invoked with tests that involve <span class="math inline">\(t\)</span>, <span class="math inline">\(F\)</span>, or Chi-squared statistics. The assumption is problematic, especially with interest group scores, which are typically bounded by 0 and 100. Although the Central Limit Theory justifies the normality assumption when the test statistic is the mean score of a large committee, the committees tested sometimes have been as small as four members. <span class="citation" data-cites="Groseclose1994TestingCommitteeComposition">(<a href="bibliography.html#ref-Groseclose1994TestingCommitteeComposition" role="doc-biblioref">Groseclose 1994, 441</a>)</span></p>
+</blockquote>
+<p><strong>Outlying Committees:</strong> “An implication of this line of reasoning <span class="citation" data-cites="WeingastMarshall1988IndustrialOrganizationCongress">(<a href="bibliography.html#ref-WeingastMarshall1988IndustrialOrganizationCongress" role="doc-biblioref">Weingast and Marshall 1988</a>)</span> is that each member of Congress may prefer that members be allowed to self-select onto the committees of their choice rather thatn each committee being representative of the entire chamber. <span class="citation" data-cites="WeingastMarshall1988IndustrialOrganizationCongress">Weingast and Marshall (<a href="bibliography.html#ref-WeingastMarshall1988IndustrialOrganizationCongress" role="doc-biblioref">1988</a>)</span> suggest that this will cause committees to be composed of preference outliers. As a result, the median member of the House Armed Services Committee should be more pro-defense than the median member of the entire House, the median member of an environmental subcommittee should be more pro-environment, and so on.” <span class="citation" data-cites="WeingastMarshall1988IndustrialOrganizationCongress">(<a href="bibliography.html#ref-WeingastMarshall1988IndustrialOrganizationCongress" role="doc-biblioref">Weingast and Marshall 1988, 444</a>)</span></p>
+<p><strong>Representative Committees:</strong> “Since the floor is risk averse, its gains are greater when the range that the committee reports for <span class="math inline">\(w\)</span> is smaller. Since this corresponds to smaller differences in ideal points between the floor and committee, the floor desires committees to be representative of the floor. Given the floor’s drect and indirect ontrols of committee selection, one can interpret this implication as a hypothesis that the difference between the committee median and the floor median to be smaller than it would be if committees were selected randomly.” <span class="citation" data-cites="Groseclose1994TestingCommitteeComposition">(<a href="bibliography.html#ref-Groseclose1994TestingCommitteeComposition" role="doc-biblioref">Groseclose 1994, 445</a>)</span></p>
+<p><strong>Representative Majority-Party Contingents on Committees:</strong> “Cox and McCubbins (1993) offer a third theory that predicts that majority-party contingents of a committee will be representative of the party as a whole. […]. One way to achieve this [maximize electoral prospects of the party as a whole] is by rewarding and punishing members according to their party loyalty. However, a more direct way is to select committee members so that their interests are representative of the party’s. A prediction of the theory is that the median preference of a committee’s majority-party contingent should be nearer to the median preference of the party as a whole that it would be by chance.” <span class="citation" data-cites="Groseclose1994TestingCommitteeComposition">(<a href="bibliography.html#ref-Groseclose1994TestingCommitteeComposition" role="doc-biblioref">Groseclose 1994, 445</a>)</span></p>
+<blockquote class="blockquote">
+<p>To test the preference outlier hypothesis, I adopt a Monte Carlo technique in which a computer simulates 20 thousand committees by randomly selecting members from the entire House. From these 20 thousand simulated committees an approximate distribution for the median of a committee is derived, and with this distribution statistical tests can be conduced. <span class="citation" data-cites="Groseclose1994TestingCommitteeComposition">(<a href="bibliography.html#ref-Groseclose1994TestingCommitteeComposition" role="doc-biblioref">Groseclose 1994, 445–46</a>)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>The lack of evidence for the hypothesis that parties stack committees with oposing extremists is consistent with tests conducted by Krehbiel (1990), who examined variances of scores of members of a committee. If parties indeed stack committees with opposing extremists, the variances of scores should be significantly greater than they would be by chance alone. However, of the 21 tests that Krehbiel conducts, only one produced this result. Thus, like Krehbiel’s findings, the results here give little, if any, support to the opposing outlier hypothesis. <span class="citation" data-cites="Groseclose1994TestingCommitteeComposition">(<a href="bibliography.html#ref-Groseclose1994TestingCommitteeComposition" role="doc-biblioref">Groseclose 1994, 451</a>)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Although the tests conducted here seldom reject the random-selection hypothesis, a plethora of rules and norms for committee selection (such as party and regional balance requirements, seniority norms, limits on the number of committees on which one can serve, etc.) indicate that committee selection is anything but random. Nevertheless, that the random-selection hypothesis is difficult to reject suggests some possibilities for a theory that the data might strongly support.</p>
+</blockquote>
+<ul>
+<li><p>“One possibility is that each of the hypotheses tested may identify an important influence in committee selection; however some of the influences tend to soften the impact of others, and as a result, cause random-selections nulls not to be rejected.” <span class="citation" data-cites="Groseclose1994TestingCommitteeComposition">(<a href="bibliography.html#ref-Groseclose1994TestingCommitteeComposition" role="doc-biblioref">Groseclose 1994, 456</a>)</span></p></li>
+<li><p>“A second possibility is that committees are purposely chosen to be cross-sections of the chamber rather than outlying or hyperrepresentative. That is, selection neither stacks members toward the chamber median nor toward one of the extremes. Instead, members are selected so that each committee contains its share of fence sitters, fence leaners, and extremists of each side.” <span class="citation" data-cites="Groseclose1994TestingCommitteeComposition">(<a href="bibliography.html#ref-Groseclose1994TestingCommitteeComposition" role="doc-biblioref">Groseclose 1994, 456</a>)</span></p></li>
+<li><p>“Finally, a third possibility is that committee selection has very little to do with preferences and is instead based primarily on other factors such as seniority, regional and party diversity, and expertise. If these factors are only weakly correlated with preferences, tests that adopt preference-based alternative hypotheses, such as those adopted here, would tend not to reject random-selection nulls.” <span class="citation" data-cites="Groseclose1994TestingCommitteeComposition">(<a href="bibliography.html#ref-Groseclose1994TestingCommitteeComposition" role="doc-biblioref">Groseclose 1994, 456–57</a>)</span></p></li>
+</ul>
+</section>
+<section id="epsteinohalloran1999delegatingpowers-chapters-1-4" class="level1" data-number="12">
+<h1 data-number="12"><span class="header-section-number">12</span> <span class="citation" data-cites="EpsteinOHalloran1999DelegatingPowers">Epstein and O’Halloran (<a href="bibliography.html#ref-EpsteinOHalloran1999DelegatingPowers" role="doc-biblioref">1999</a>)</span>, chapters 1 &amp; 4</h1>
+<section id="chapter-1-paths-of-policy-making" class="level2" data-number="12.1">
+<h2 data-number="12.1" class="anchored" data-anchor-id="chapter-1-paths-of-policy-making"><span class="header-section-number">12.1</span> Chapter 1: Paths of Policy Making</h2>
+<blockquote class="blockquote">
+<p>In the end, then, most of the crucial policy decisions regarding base closings were made by an independent commission, with relatively little room for political interference. It is possible, indeed likely, that in this case the decision-making structure coincided quite closely with one whose sole objective would be the making of good public policy. However, the commission structure was not chosen primarily for its policy benefits; otherwise, Congress would have established such a comission anytime in the previous twelve years. Neither would it have included the provision that all closings pay for themselves within six years, thus exempting those bases that were in the worst shape.</p>
+<p>Rather, the commission structure was adopted because it best served legislators’ need to close some bases without handing over too much power to the Defense Department. Congress examined its expected costs and benefits under alternative policy-making structures and selected the one that provided the most possible expected net political benefits, allocating decision-making authority across the branches and constraining it in such a way as to reap the benefits of delegation while minimizing the associated political costs. It is this type of choice over alternative policy-making procedures, and their impact on policy outcomes, that this book will explore. <span class="citation" data-cites="EpsteinOHalloran1999DelegatingPowers">(<a href="bibliography.html#ref-EpsteinOHalloran1999DelegatingPowers" role="doc-biblioref">Epstein and O’Halloran 1999, 4</a>)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>We see this inherent tension between effectiveness and responsiveness most clearly in the dramatic changes in the structure of government and the powers and functions of the bureaucracy that have arisen since the New Deal. What divides the modern administrative state from its predecessors is the delegation of broad decision-making authority to a professional civil service. But this delegation authority from Congress to executive has never been monolithic; it has varied over time, by issue area, and with national political and economic trends. <span class="citation" data-cites="EpsteinOHalloran1999DelegatingPowers">(<a href="bibliography.html#ref-EpsteinOHalloran1999DelegatingPowers" role="doc-biblioref">Epstein and O’Halloran 1999, 5</a>)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>What is most striking about the figure is the considerable amount of variation across the different issues areas. Predictably, Congress delegates least authority in bills reported out of Ways and Means, Budget, Rules, and the House Administration Committees. But perhaps counter to intuition, bills reported from the Agricultural and Public Works Committees, usually considered “pork-barrel” policy areas that legislators jealously guard, do in fact delegate significant authority to the executive. Finally, the Armed Services Committee delegates the most. <span class="citation" data-cites="EpsteinOHalloran1999DelegatingPowers">(<a href="bibliography.html#ref-EpsteinOHalloran1999DelegatingPowers" role="doc-biblioref">Epstein and O’Halloran 1999, 5</a>)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>It is clear from these examples that where policy is made – in Congress or through delegation to the executive – has a significant impact on policy outcomes. The central puzzle to be explained, then, is why does Congress delegate broad authority to the executive in some policy areas but not in other? <span class="citation" data-cites="EpsteinOHalloran1999DelegatingPowers">(<a href="bibliography.html#ref-EpsteinOHalloran1999DelegatingPowers" role="doc-biblioref">Epstein and O’Halloran 1999, 7</a>)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Our approach to this question begins with the observation that policy can be made in Congress, through delegation of authority to executive agences, or by some mixture of these two. Furthermore, the amount of discretionary authority delegated is a decision made by Congress, which can write either detailed legislation that leaves the executive with little latitude in implementation or vague laws that leave executive actors with broad discretionary powers. And when deciding where policy will be made, Congress trades off the internal policy production costs of the committee system against the external costs of delegation. Thus, Congress’s decision to delegate is similar to a firm’s make-or-buy decision; hence, our usage of the term “transaction cost politics”. <span class="citation" data-cites="EpsteinOHalloran1999DelegatingPowers">(<a href="bibliography.html#ref-EpsteinOHalloran1999DelegatingPowers" role="doc-biblioref">Epstein and O’Halloran 1999, 7</a>)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Our theory predicts, then, that policy will be made in the politically most efficient manner, be it through direct legislative action, through delegation to executive branch agencies, or through some combination of these two. Note the term “politically” efficient; we make no claim that the policy making under separate powers will be <em>technically</em> or <em>economically</em> efficient, allocating resources to their greatest advantage. Indeed, as some features of the base-closing case demonstrated, policy making may be quite inefficient according to a strict economic benchmark. Rather, we claim that policy will be made in such a way as to maximize legislators’ political goals, which we take to be reelection first and foremost. Legislators will prefer to make policy themselves as long as the political benefits they derive from doing so outweigh the political costs; otherwise, they will delegate to the executive. <span class="citation" data-cites="EpsteinOHalloran1999DelegatingPowers">(<a href="bibliography.html#ref-EpsteinOHalloran1999DelegatingPowers" role="doc-biblioref">Epstein and O’Halloran 1999, 9</a>)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>We also address what has come to be known as the “information versus distribution” debate in the legislative organization literature; that is, whether committees primarily serve members’ distributive, pork barrel needs or their desire to avoid the consequences of ill-informed policy. We assert that this question must be a false dichotomy: Some policy areas are characterized more by informational concers, others by distributive, and still others by both. The right question to ask, from our perspective, is how the informational and distributive content of an issue area affects the types of procedures used to implement policy. Specifically, we shall argue that informationally intense policy areas will be good candidates for delegation, while distributive issues will tend to be made in Congress. <span class="citation" data-cites="EpsteinOHalloran1999DelegatingPowers">(<a href="bibliography.html#ref-EpsteinOHalloran1999DelegatingPowers" role="doc-biblioref">Epstein and O’Halloran 1999, 10</a>)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>We also claim that legislative organization is directly affected by its broader environment of separate powers: Congressional committees will be organized differently given the possibility of delegation to the executive. Their preferences will not be extreme, as predicted by a purely distributive approach, nor will they meet the informational theory’s expectations of precisely matching the median floor voter’s preferences. Rather, committees will tend to be moderately biased in a direction opposite to the preferences of the executive branch; they will e <em>contrary outliers</em>. This highlights the differences between a policy-making perspective that begins and ends within Congress, and one that incorporates executive branch decision making into the analysis. <span class="citation" data-cites="EpsteinOHalloran1999DelegatingPowers">(<a href="bibliography.html#ref-EpsteinOHalloran1999DelegatingPowers" role="doc-biblioref">Epstein and O’Halloran 1999, 11</a>)</span></p>
+</blockquote>
+</section>
+<section id="chapter-4-the-decision-to-delegate" class="level2" data-number="12.2">
+<h2 data-number="12.2" class="anchored" data-anchor-id="chapter-4-the-decision-to-delegate"><span class="header-section-number">12.2</span> Chapter 4: The Decision to Delegate</h2>
+<blockquote class="blockquote">
+<p>Given the transaction cost politics approach we outlined in Chapter 3, a formal model of Congress’s decision to delegate must contain the following elements: (1) a focus on legislation as the basic unit of analysis; (2) an enforcement mechanism for interbranch contracts; (3) residual rights of control combined with multiple possible governance structures; (4) bounded rationality, leading to incomplete contracts; (5) the political hold-up problem; (6) internal transaction costs of production; and (7) a decision mechanism predicting which governance structure will be chosen by legislators whose first concern is reelection. The components are all captured in the following model of the policy-making process.</p>
+<p>The relevant players in our game consist of the median Floor voter in Congress, a congressional Committee, the President, and an executive branch Agency, identified as F, C, P, and A, respectively. Consistent with our theory of transaction cost politics, our unit of analysis is a bill; therefore, these players will combine to make policy in a one-dimensional policy space <span class="math inline">\(X = \mathbb{R}^1\)</span>. This assumption of unidimensionality is seemingly simple but nonetheless crucial, as the most important division in formal models of political processes is between one-dimensional and multidimensional policy spaces. If policy can be accurately portrayed as falling along a single left-right spectrum, and if political actors have single-peaked preferences, then there exists a median voter who will be pivotal in the choice of legislative organization, administrative procedures, policies, and so on.</p>
+<p>Each actor has a most-preferred policy, or ideal point, in this unidimensional space; if the policy in question is agriculture, then this could represent the actor’s preferred level of aid to farmers. If actor <span class="math inline">\(i\)</span> has ideal point <span class="math inline">\(X_i\)</span> and the final policy outcome is X, then the actor gains utility equal to <span class="math inline">\(-(X - X_i)^2\)</span>, known as a quadratic loss functon. Without loss of generality, we assume that the floor’s ideal point <span class="math inline">\(x_f = 0\)</span> and the president’s ideal point <span class="math inline">\(x_p &gt; 0\)</span>.</p>
+<p>This quadratic loss function has two important implicatons. First, actors will prefere outcomes that are closer to their ideal point than those further away; this is the distributive component of their utility. But actors will also be risk-averse, meaning that they will dislike uncertainty over policy outcomes; this is the informational component. Even though actors want outcomes close to their preferred policy, then, they may nonetheless be willing at the margin to accept a system that biases policy away from their preferences if they can simoutaneously reduce the uncertainty associated with these outcomes. <span class="citation" data-cites="EpsteinOHalloran1999DelegatingPowers">(<a href="bibliography.html#ref-EpsteinOHalloran1999DelegatingPowers" role="doc-biblioref">Epstein and O’Halloran 1999, 53–54</a>)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>The game is played as follows. First, committees gain some information about the policy issue being discussed, and then they send a bill or report to the floor player. Based on this report, the floor player must decide whether to enact specific legislation that gives the executive no substantive input into policy or to allow the executive some latitude. If she chooses to delegate, <span class="math inline">\(F\)</span> can set both a baseline policy <span class="math inline">\(\hat{p}\)</span> and give the executive some (possibly limited) discretion to move policy away from <span class="math inline">\(\hat{p}\)</span>. <span class="citation" data-cites="EpsteinOHalloran1999DelegatingPowers">(<a href="bibliography.html#ref-EpsteinOHalloran1999DelegatingPowers" role="doc-biblioref">Epstein and O’Halloran 1999, 55</a>)</span></p>
+</blockquote>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/epsteinohalloran1999_delegating_powers.png" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="EpsteinOHalloran1999DelegatingPowers">Epstein and O’Halloran (<a href="bibliography.html#ref-EpsteinOHalloran1999DelegatingPowers" role="doc-biblioref">1999</a>)</span>, p.&nbsp;56</figcaption>
+</figure>
+</div>
+<blockquote class="blockquote">
+<p>Thus far, our setup is similar to previous models of committees and legislative organization under imperfect information. Where we depart from this tradition is by assuming that committees’ expertise in the relevant issue area are incomplete and that they have less information than an agency would have when promulgating regulations. We assume that while the agency observes the exact value of <span class="math inline">\(\omega\)</span>, the committee observes only whether <span class="math inline">\(\omega\)</span> lies in the range <span class="math inline">\([-R, 0]\)</span> or the range <span class="math inline">\([0, R]\)</span>; that is, the committee sees only the sign of <span class="math inline">\(\omega\)</span>. This agency advantage might arise through greater numbers of staff and more time to analyze the technical issues at hand, or it might simply be due to the fact that some time will elapse between the passing of the law and making regulations, giving the agency access to new information revealed in that period. <span class="citation" data-cites="EpsteinOHalloran1999DelegatingPowers">(<a href="bibliography.html#ref-EpsteinOHalloran1999DelegatingPowers" role="doc-biblioref">Epstein and O’Halloran 1999, 56–57</a>)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>If the floor chooses to delegate to the executive branch (<span class="math inline">\(\mathcal{D} = 1\)</span>), then it must also determine the procedures under which the agency will operate. In particular, <span class="math inline">\(F\)</span> sets a status quo policy (<span class="math inline">\(\hat{p}\)</span>) and specify the level of discretionary authority (<span class="math inline">\(d\)</span>) that the agency has to move outcomes away from <span class="math inline">\(\hat{p}\)</span>.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><em>Proposition 1:</em> The closer the preferences of the committee to those of the median floor voter, the less likely Congress is to delegate authority to the executive.</p>
+<p><em>Proposition 2:</em> The closer the preferences of the president to those of the median floor voter, the more likely Congress is to delegate authority to the executive. <span class="citation" data-cites="EpsteinOHalloran1999DelegatingPowers">(<a href="bibliography.html#ref-EpsteinOHalloran1999DelegatingPowers" role="doc-biblioref">Epstein and O’Halloran 1999, 75</a>)</span></p>
+</blockquote>
+<p><strong>Predictions:</strong></p>
+<ul>
+<li><strong>Congressional-Executive Relations: <span class="math inline">\(X_p\)</span></strong></li>
+</ul>
+<blockquote class="blockquote">
+<p><em>Hypothesis 1: Divided Government and Delegation.</em> Less discretionary authority will be delegated to the executive during times of divided government.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><em>Hypothesis 2: Roll-Call Votes and Delegation.</em> Legislators from the president’s party will vote in support of delegation, while legislators from the other party will vote against it.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><em>Hypothesis 3: Agency Type and Delegation.</em> During times of divided government, Congress will delegate more often to independent agencies and non-executive branch actors.</p>
+</blockquote>
+<ul>
+<li><strong>Legislative Organization: <span class="math inline">\(X_c\)</span></strong></li>
+</ul>
+<blockquote class="blockquote">
+<p><em>Hypothesis 4: Committee Composition.</em> (a) The range of committee medians should narrow during times of unified government. (b) Committee medians will move opposite to changes in the preferences of the executive.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><em>Hypothesis 5: Committee Outliers and Delegation.</em> (a) The more the committee considering legislation is a preference outlier, the more likely Congress is to delegate authority to the executive branch. (b) The magnitude of the committee outliers’ impact on discretion will decline as interbranch conflict increases.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><em>Hypothesis 6: Legislative Parties and Delegation.</em> The more cohesive the majority party in Congressis, the less authority will be delegated to the executive.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><em>Hypothesis 7: Parliamentary Procedures and Delegation.</em> (a) The amount of discretion delegated to the executive will decrease for multiply referred bills. (b) The amount of discretion delegated to the executive will decrease for bills that receive restrictive amendment procedures.</p>
+</blockquote>
+<ul>
+<li><strong>Issue Areas and Delegation: R</strong></li>
+</ul>
+<blockquote class="blockquote">
+<p><em>Hypothesis 8: Issues Areas and Delegation.</em> More authority will be delegated to the executive in informationally intense issues areas.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><em>Hypothesis 9: Issue Areas and Committees.</em> Bills reported by committees with informationally intense policy jurisdictions will delegate greater discretionary authority to the executive.</p>
+</blockquote>
+</section>
+</section>
+<section id="mccubbins1984congressionaloversightoverlooked" class="level1" data-number="13">
+<h1 data-number="13"><span class="header-section-number">13</span> <span class="citation" data-cites="McCubbins1984CongressionalOversightOverlooked">McCubbins and Schwartz (<a href="bibliography.html#ref-McCubbins1984CongressionalOversightOverlooked" role="doc-biblioref">1984</a>)</span></h1>
+<blockquote class="blockquote">
+<p>Scholars often remarked that Congress neglects its oversight responsibility. We argue that Congress does no such thing: what appears to be a neglect of oversight really is the rational preference for one form of oversight – which we call fire-alarm oversight – over another form – police-patrol oversight. Our analysis supports a somewhat neglected way of looking at the strategies by which legislators seek to achieve their goals. <span class="citation" data-cites="McCubbins1984CongressionalOversightOverlooked">(<a href="bibliography.html#ref-McCubbins1984CongressionalOversightOverlooked" role="doc-biblioref">McCubbins and Schwartz 1984, 165</a>)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Scholars often complain that Congress has neglected its oversight responsibility: despite a large and growing executive branch, Congress has done little or nothing to oversee administrative compliance with legislative goals. As a consequence, we are told, Congress has largely lost control of the executive branch: it has allowed the executive branch not only to grow but to grow irresponsible. In popular debate as well as congressional scholarship, this neglect of oversight has become a stylized fact: widely and dutifully reported, it is often bemoaned, sometimes explained, but almost never seriously questioned. We question it. What has appeared to scholars to be a neglect of oversight, we argue, really is a preference for one form of oversight over another, less-effective form. In so arguing, we develop a simple model for congressional choice, and draw from it further implications regarding bureaucratic discretion and regulatory legislation. More generally, we model the choice by policy makers of an optimal enforcement strategy, given opportunity costs, available technology, and human cognitive limits. <span class="citation" data-cites="McCubbins1984CongressionalOversightOverlooked">(<a href="bibliography.html#ref-McCubbins1984CongressionalOversightOverlooked" role="doc-biblioref">McCubbins and Schwartz 1984, 165</a>)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>POLICY-PATROL OVERSIGHT</strong>. Analogous to the use of real police patrols, police-patrol oversight is comparatively centralized, active, and direct: as its own initiative, Congress examines a sample of executive-agency activities, with the aim of detecting and remedying any violations of legislative goals and, by its surveillance, discouraging such violations. An agency’s activities might be surveyed by any of a number of means, such as reading documents, commissioning scientific studies, conducting field observations, and holding hearings to question officials and affected citizens. <strong>FIRE-ALARM OVERSIGHT</strong>. Analogous to the use of real fire alarms, fire-alarm oversight is less centralized and involves less active and direct intervention than police-patrol oversight: instead of examining a sample of administrative deciions, looking for violations of legislative goals, Congress stablishes a system of rules, procedures, and informal practices that enable individual citizens and organize interest groups to examine administrative decisions (sometimes in prospect), to charge executive agences with violating congressional goals, and to seek remedies from agencies, courts, and Congress itself. Some of these rules, procedures, and practices afford citizens and interest groups access to information and to administrative decision-making processes. Others give them standing to challenge administrative decisions before agencies and courts, or help them bring alleged violations to congressmen’s attention. Still others facilitate collective action by comparatively disorganized interest groups. Congress’s role consists in creating and perfecting the decentralized system and, occasionally, intervening in response to complaints. Instead of sniffing for fires, Congress places fire-alarm boxes on street corners, builds neighborhood fire houses, and sometimes dispaches its own hook-and-ladder in response to an alarm. <span class="citation" data-cites="McCubbins1984CongressionalOversightOverlooked">(<a href="bibliography.html#ref-McCubbins1984CongressionalOversightOverlooked" role="doc-biblioref">McCubbins and Schwartz 1984, 166</a>)</span></p>
+</blockquote>
+<p>Consequences of the model:</p>
+<p><strong>CONSEQUENCE 1:</strong> <em>To the extent that they favor oversight activity of any sort, congressmen tend to prefer fire-alarm oversight to police-patrol oversight</em> <span class="citation" data-cites="McCubbins1984CongressionalOversightOverlooked">(<a href="bibliography.html#ref-McCubbins1984CongressionalOversightOverlooked" role="doc-biblioref">McCubbins and Schwartz 1984, 167</a>)</span>.</p>
+<blockquote class="blockquote">
+<p>According to the Motivational Assumption <span class="citation" data-cites="Mayhew2004ElectoralConnection">(as in <a href="bibliography.html#ref-Mayhew2004ElectoralConnection" role="doc-biblioref">Mayhew 2004</a>)</span>, then, their time is largely wasted [if the choose the police-patrol oversight], so they incur in opportunity costs. But under a fire-alarm policy, a congressman does not address concrete violations unless potential supporters have complained about them, in which case he can receive credit for intervening. <span class="citation" data-cites="McCubbins1984CongressionalOversightOverlooked">(<a href="bibliography.html#ref-McCubbins1984CongressionalOversightOverlooked" role="doc-biblioref">McCubbins and Schwartz 1984, 168</a>)</span></p>
+</blockquote>
+<p>Besides, “Under a fire-alarm policy, by contrast, potential supporters can in most cases bring to congressmen’s attention any violations that harm them and for which they have received no adequate remedy through the executive or judicial branch.” <span class="citation" data-cites="McCubbins1984CongressionalOversightOverlooked">(<a href="bibliography.html#ref-McCubbins1984CongressionalOversightOverlooked" role="doc-biblioref">McCubbins and Schwartz 1984, 168</a>)</span></p>
+<p><strong>CONSEQUENCE 2:</strong> <em>Congress will not neglect its oversight responsibility. It will adopt an extensive and somewhat effect (even if imperfect) oversight policy.</em> <span class="citation" data-cites="McCubbins1984CongressionalOversightOverlooked">(<a href="bibliography.html#ref-McCubbins1984CongressionalOversightOverlooked" role="doc-biblioref">McCubbins and Schwartz 1984, 168</a>)</span>.</p>
+<blockquote class="blockquote">
+<p>This is because one of the two forms of oversight – the fire-alarm variety – serves congressmen’s interest at little cost. When his potential supporters complain of a violation of legislative goals, a congressman gains credit if he eliminates the cause of the complaint. <span class="citation" data-cites="McCubbins1984CongressionalOversightOverlooked">(<a href="bibliography.html#ref-McCubbins1984CongressionalOversightOverlooked" role="doc-biblioref">McCubbins and Schwartz 1984, 168</a>)</span></p>
+</blockquote>
+<p><strong>CONSEQUENCE 3:</strong> <em>Congress will adopt an extensive and somewhat effective policy of fire-alarm oversight while largely neglecting police-patrol oversight.</em> <span class="citation" data-cites="McCubbins1984CongressionalOversightOverlooked">(<a href="bibliography.html#ref-McCubbins1984CongressionalOversightOverlooked" role="doc-biblioref">McCubbins and Schwartz 1984, 169</a>)</span></p>
+<blockquote class="blockquote">
+<p>Regarding the apparent fact that Congress neglects oversight, we choose alternative (b) over (a): what appears to be a neglect of oversight can be explained as a preference by congressmen for fire-alarm over police-patrol oversight. We have already argued that congressmen have this preference. Scholars who decry the neglect of oversight have, we suggest, focused on a single form of oversight: they have looked only for police-patrol oversight, ignoring the fire-alarm alternative – and therewith the major part of actual oversight activity. <span class="citation" data-cites="McCubbins1984CongressionalOversightOverlooked">(<a href="bibliography.html#ref-McCubbins1984CongressionalOversightOverlooked" role="doc-biblioref">McCubbins and Schwartz 1984, 170</a>)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>We will argue that fire-alarm oversight is likely to be more effective, on balance, than police-patrol oversight. But this requires two qualifications: First, we do not contend that the most effective oversight policy is likely to contain no police-patrol oversight, only that fire-alarm techniques are likely to predominate. Second, we do not contend that a predominantly fire-alarm policy is more likely than a predominantly police-patrol policy to serve the public interest, only that it is likely to secure greater compliance with legislative goals; whether such compliance serves the public interest depends on what those goals are. <span class="citation" data-cites="McCubbins1984CongressionalOversightOverlooked">(<a href="bibliography.html#ref-McCubbins1984CongressionalOversightOverlooked" role="doc-biblioref">McCubbins and Schwartz 1984, 171</a>)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>To be sure, fire-alarm oversight tends to be <em>particularistic</em> in the sense of <span class="citation" data-cites="Mayhew2004ElectoralConnection">Mayhew (<a href="bibliography.html#ref-Mayhew2004ElectoralConnection" role="doc-biblioref">2004</a>)</span>: it arguably emphasizes the interest of individuals and interest groups more than those of the public at large. This is an important difference – the essential difference, we think, between the respective products of police-patrol and fire-alarm oversight. But whether it is a shortcoming of fire-alarm oversight depends on one’s ideological point of view: even if fire-alarm oversight deemphasizes some public-interest concerns, it gives special emphasis to a concern for the interests and rights of individual citizens and small groups – a concern well founded in American political values. <span class="citation" data-cites="McCubbins1984CongressionalOversightOverlooked">(<a href="bibliography.html#ref-McCubbins1984CongressionalOversightOverlooked" role="doc-biblioref">McCubbins and Schwartz 1984, 172</a>)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Besides criticizing the received wisdom regarding congressional oversight, we hope to have highlighted a neglected way of looking at congressional behavior. Sometimes Congress appears to do little, leaving important policy decisions to the executive and judicial branch. But appearences can deceive. A perfectly reasonable way for Congress to pursue its objectives is by ensuring that fire alarms will be sounded, enabling courts, administrative agencies, and ultimately Congress itself to step in, whenever executive compliance with congressional objectives is called in questions. <span class="citation" data-cites="McCubbins1984CongressionalOversightOverlooked">(<a href="bibliography.html#ref-McCubbins1984CongressionalOversightOverlooked" role="doc-biblioref">McCubbins and Schwartz 1984, 176</a>)</span></p>
+</blockquote>
+<!-- # @McCubbins1989StructureProcessPoliticsPolicy -->
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-EpsteinOHalloran1999DelegatingPowers" class="csl-entry" role="listitem">
+Epstein, David, and Sharyn O’Halloran. 1999. <em>Delegating Powers: A Transaction Cost Politics Approach to Policy Making Under Separate Powers</em>. Cambridge: Cambridge University Press.
+</div>
+<div id="ref-Groseclose1994TestingCommitteeComposition" class="csl-entry" role="listitem">
+Groseclose, Tim. 1994. <span>“Testing Committee Composition Hypotheses for the <span>US</span> Congress.”</span> <em>The Journal of Politics</em> 56 (2): 440–58.
+</div>
+<div id="ref-Mayhew2004ElectoralConnection" class="csl-entry" role="listitem">
+Mayhew, David R. 2004. <em>Congress: The Electoral Connection</em>. New Haven: Yale University Press.
+</div>
+<div id="ref-McCubbins1984CongressionalOversightOverlooked" class="csl-entry" role="listitem">
+McCubbins, Mathew D., and Thomas Schwartz. 1984. <span>“Congressional Oversight Overlooked: Police Patrols Versus Fire Alarms.”</span> <em>American Journal of Political Science</em> 28 (1): 165–79. <a href="https://doi.org/10.2307/2110792">https://doi.org/10.2307/2110792</a>.
+</div>
+<div id="ref-WeingastMarshall1988IndustrialOrganizationCongress" class="csl-entry" role="listitem">
+Weingast, Barry R., and William J. Marshall. 1988. <span>“The Industrial Organization of Congress; or, Why Legislatures, Like Firms, Are Not Organized as Markets.”</span> <em>Journal of Political Economy</em> 96 (1): 132–63.
+</div>
+</div>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    window.setColorSchemeToggle(window.hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../aulas/aula-8.html" class="pagination-link" aria-label="Perspectiva informacional pt. 2">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Perspectiva informacional pt.&nbsp;2</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../aulas/bibliography.html" class="pagination-link" aria-label="Bibliografia">
+        <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Bibliografia</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
