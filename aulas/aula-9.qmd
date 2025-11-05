@@ -7,7 +7,7 @@ author:
 fontsize: 12pt
 ---
 
-# @Groseclose1994TestingCommitteeComposition
+# @Groseclose1994TestingCommitteeComposition {.unnumbered}
 
 > Tests of theories of composition of congressional committees are often problematic. Among the problems are presumed normality of the data, presumed cardinal meaning of the data, and the use of a mean score of committee preference when the corresponding theory only contains implications for the median score. This essay introduces a testing method that avoids these problems. It tests five hypotheses: (1) committees are preference outliers, (2) Democrats stack their slots of committees with liberal outliers, (3) Republicans stack their slots with conservative outliers, (4) committees are representative of the whole House, and (5) Democratic contingents on committees are representative of the whole Democratic caucus. Strong support, however, cannot be found for any of the hypotheses. The preference outliers hypothesis receives the most support, but even here the evidence is mixed. [@Groseclose1994TestingCommitteeComposition, p. 440]
 
@@ -31,9 +31,9 @@ fontsize: 12pt
 
 - "Finally, a third possibility is that committee selection has very little to do with preferences and is instead based primarily on other factors such as seniority, regional and party diversity, and expertise. If these factors are only weakly correlated with preferences, tests that adopt preference-based alternative hypotheses, such as those adopted here, would tend not to reject random-selection nulls." [@Groseclose1994TestingCommitteeComposition, p. 456-457]
 
-# @EpsteinOHalloran1999DelegatingPowers, chapters 1 & 4
+# @EpsteinOHalloran1999DelegatingPowers, chapters 1 & 4 {.unnumbered}
 
-## Chapter 1: Paths of Policy Making
+## Chapter 1: Paths of Policy Making {.unnumbered}
 
 > In the end, then, most of the crucial policy decisions regarding base closings were made by an independent commission, with relatively little room for political interference. It is possible, indeed likely, that in this case the decision-making structure coincided quite closely with one whose sole objective would be the making of good public policy. However, the commission structure was not chosen primarily for its policy benefits; otherwise, Congress would have established such a comission anytime in the previous twelve years. Neither would it have included the provision that all closings pay for themselves within six years, thus exempting those bases that were in the worst shape.
 > 
@@ -54,7 +54,7 @@ fontsize: 12pt
 > We also claim that legislative organization is directly affected by its broader environment of separate powers: Congressional committees will be organized differently given the possibility of delegation to the executive. Their preferences will not be extreme, as predicted by a purely distributive approach, nor will they meet the informational theory's expectations of precisely matching the median floor voter's preferences. Rather, committees will tend to be moderately biased in a direction opposite to the preferences of the executive branch; they will e _contrary outliers_. This highlights the differences between a policy-making perspective that begins and ends within Congress, and one that incorporates executive branch decision making into the analysis. [@EpsteinOHalloran1999DelegatingPowers, p. 11]
 
 
-## Chapter 4: The Decision to Delegate
+## Chapter 4: The Decision to Delegate {.unnumbered}
 
 > Given the transaction cost politics approach we outlined in Chapter 3, a formal model of Congress's decision to delegate must contain the following elements: (1) a focus on legislation as the basic unit of analysis; (2) an enforcement mechanism for interbranch contracts; (3) residual rights of control combined with multiple possible governance structures; (4) bounded rationality, leading to incomplete contracts; (5) the political hold-up problem; (6) internal transaction costs of production; and (7) a decision mechanism predicting which governance structure will be chosen by legislators whose first concern is reelection. The components are all captured in the following model of the policy-making process.
 >
@@ -136,3 +136,32 @@ Besides, "Under a fire-alarm policy, by contrast, potential supporters can in mo
 
 <!-- # @McCubbins1989StructureProcessPoliticsPolicy -->
 
+# Anotações de aula {.unnumbered}
+
+**Sobre @Groseclose1994TestingCommitteeComposition:** um dos componentes importantes nos estudos legislativos é a composição das comissões e, em particular, a comparação entre a composição das comissões e a composição do plenário. O autor vê dois problemas com os estudos a respeito -- (i) o pressuposto de normalidade dos dados; e (ii) o segundo problema tem a ver com a mensuração (que é de 0 a 100, quando a distribuição normal está no intervalo $(-\infty, +\infty)$). Além disso: o que os autores fazem, em geral, como estratégia de falsificação, é o seguinte: "se não é aleatório, então minha hipótese está correta". Há, no entanto, um salto conceitual para afirmar que a distribuição observada é representativa.
+
+**Sobre @EpsteinOHalloran1999DelegatingPowers:** há custos que envolvem o processo legislativo; tempo e recursos são escassos. A solção para a incapacidade de dar conta de todos os problemas que surgem é delegar. Por que há maior ou menor delegação para o Executivo dependendo das áreas?
+
+Esse texto é uma resposta a Mayhew no livro "Divided we Govern", em que o argumento central é que não importa se o governo é dividido ou unificado. O que ele faz é pegar as bills consideradas extremamente relevantes, levando em consideração um critério técnico das bills e também um critério de relevância pública -- i.e., se as bills fizeram parte da imprensa pública e durante quanto tempo. Daí ele testa se o governo dividido ou unificado importa para a aprovação de bills.
+
+No momento de escrita de uma bill, o Congresso pode definir as regras de implementação ou pode deixar partes em aberto para que o Executivo decida. Isso varia dependendo, por exemplo, de áreas. 
+
+Limitações:
+
+- Assume que a preferência do presidente é igual à da burocracia;
+- Não leva em consideração o bureaucratic drift;
+- Não considera diferentes tipos de agências burocráticas (com mais ou menos comissionados).
+
+Relação Executivo-Legislativo no Brasil: a lógica da delegação foi entendida como consistente com os comportamentos e padrões legislativos, como quando se trata dos poderes legislativos dos presidentes -- Figueiredo e Limongi (2003) e Almeida (2019).
+
+O aumento do protagonismo do CN na iniciação da legislação pode ser interpretada como uma reversão da delegação ao presidente, motivada por alteração nas preferências dos parlamentares.
+
+Segunda parte da aula, sobre @McCubbins1984CongressionalOversightOverlooked e @McCubbins1989StructureProcessPoliticsPolicy. 
+
+# Quizz {.unnumbered}
+
+> A recente conversa entre os presidentes Lula e Donald Trump é um sinal positivo de busca por entendimento, mas a escolha de Marco Rubio como interlocutor não parece promissora. Rubio, figura anti-esquerda do governo Trump, vê Lula como comunista, o que pode complicar as negociações. Contudo, a troca de ideias entre os líderes, acompanhada por ministros, aponta para possíveis avanços através do diálogo diplomático.
+>
+> Olá, gente!  Acima vocês encontram o resumo da coluna de Merval Pereira em o Globo, oublicada há 2 dias. O quiz de hoje, então, é: onde está o erro da análise (à luz do modelo espacial de @EpsteinOHalloran1999DelegatingPowers)?
+
+De fato, por @EpsteinOHalloran1999DelegatingPowers, a burocracia tem a mesma preferência do presidente. Além disso, podemos pensar que essa política, num espaço unidimensional, não está num espaço direita-esquerda e, portanto, a preferência ideológica de Rubio é ortogonal.

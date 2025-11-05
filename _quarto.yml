@@ -10,7 +10,11 @@ book:
     - part: Fundamentos
       chapters:
         - aulas/aula-1.qmd
+    - part: Estudos Pioneiros
+      chapters:
         - aulas/aula-2.qmd
+    - part: Perspectivas sobre o Legislativo
+      chapters:
         - aulas/aula-3.qmd
         - aulas/aula-4.qmd
         - aulas/aula-5.qmd
@@ -18,6 +22,17 @@ book:
         - aulas/aula-7.qmd
         - aulas/aula-8.qmd
         - aulas/aula-9.qmd
+        - aulas/aula-10.qmd
+    - part: Presidencialismo, parlamentarismo e Legislativo
+      chapters:
+        - aulas/aula-11.qmd
+        - aulas/aula-12.qmd
+    - part: Experimentos
+      chapters:
+        - aulas/aula-13.qmd
+        - aulas/aula-14.qmd
+    - part: Bibliografia
+      chapters:
         - aulas/bibliography.qmd
 format:
   html:

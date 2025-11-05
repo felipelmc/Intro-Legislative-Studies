@@ -1,0 +1,88 @@
+---
+title: "Exercício de _Midterm_"
+subtitle: "Introdução aos Estudos Legislativos"
+date: "11/05/2025"
+author:
+  - name: Felipe Lamarca
+    email: felipelamarca@iesp.uerj.br
+format:
+  pdf:
+    toc: false
+    number-sections: false
+    colorlinks: true
+    fig-pos: H
+    tbl-cap-location: top
+    fig-cap-location: top
+    df-print: kable
+    geometry:
+      - top=25mm
+      - left=20mm
+      - right=20mm
+      - bottom=25mm
+header-includes:
+  - "\\usepackage{amsmath,amssymb}"
+  - "\\usepackage{cancel}"
+  - "\\usepackage{tabularray}"
+  # - "\\UseTblrLibrary{rotating}"
+execute:
+  echo: true
+  warning: false
+  message: false
+bibliography: ../bibliography.bib
+---
+
+**Questão 1:** _Assista ao filme Mr. Smith Goes to Washington. Sabemos que a regra envolvendo o uso do filibuster (obstrução) foi modificada mais recentemente, permitindo sua derrubada (dado certo quórum). Como opera a política dos pivots após tal modificação?_
+
+O _filibuster_ é um mecanismo utilizado no Senado dos Estados Unidos para prolongar o debate e atrasar ou impedir a votação de determinado projeto de lei. Até 1.917 não havia qualquer mecanismo que permitisse encerrar o filibuster e, portanto, não havia uma maneira formal de forçar sua derrubada. Em 1.917, no entanto, foi criada a Rule XXII, que criou o procedimento de _cloture_. A cloture, no entanto, é uma medida que requer o apoio de pelo menos 60 senadores -- isto é, três quintos do Senado --, e, portanto, trata-se de um mecanismo supramajoritário.
+
+Isso impõe pelo menos uma questão para o campo dos estudos legislativos: num _policy space_ unidimensional, vence o mediano; mas na prática, nos legislativos efetivamente implementados no mundo, frequentemente precisamos considerar maiorias qualificadas e, nesse caso, o mediano é insuficiente para entender todo o processo que envolve a aprovação de uma _policy_. [@Krehbiel1998PivotalPolitics, @BradyVolden2005RevolvingGridlock].
+
+No contexto da política dos pivôs, portanto, o _filibuster pivot_ é um legislador fundamental: ele é o senador cuja posição define se a obstrução será mantida ou encerrada. Se estiver do lado da minoria, ele sustenta o filibuster e obstrui a votação da policy; se for persuadido pela maioria, ele permite a aprovação da cloture e a votação prossegue. Em outras palavras, a opção por iniciar ou não um filibuster é condicionada pela posição (no espaço unidimensional) do filibuster pivot, que tem o poder de decidir se a cloture será ou não aprovada.  
+
+
+\vspace{1.5em}
+
+
+**Questão 2:** _D. Arnold trabalha com uma noção vital advinda das políticas públicas (e psicologia comportamental) de acordo com a qual os indivíduos reagem e se mobilizam mais intensamente para evitar a imposição de custos do que para auferir potenciais benefícios (de políticas em tramitação no Congresso). Como tal noção impacta sua teoria sobre o comportamento legislativo?_
+
+A figura do legislador em @Arnold1990LogicCongressionalAction é um indivíduo, antes de tudo, avesso ao risco. Em particular, "I assume that when legislators have to make a decision they first ask which alternative contributes more to their chances of reelection." [@Arnold1990LogicCongressionalAction, p. 7] -- isto é, assim como em @Mayhew2004ElectoralConnection, o legislator é interessado em garantir sua reeleição[^1].
+
+A principal questão de @Arnold1990LogicCongressionalAction pode ser resumida da seguinte maneira: por que o Congresso (1) ora aprova propostas que atendem a interesses particulares, (2) ora aprovam medidas que atendem a interesses difusos? De fato, na formulação de @Mayhew2004ElectoralConnection, só haveria incentivo para ações do primeiro tipo, e nunca para o segundo.
+
+Nesse sentido, o argumento é que a aprovação de uma ou outra medida depende de uma série de cálculos, no qual o fator mais fundamental é uma antecipação da reação do eleitor. Dadas duas opções (por exemplo, aprovar ou rejeitar uma _policy_), o legislador avalia, de saída, qual delas contribui mais para suas chances de reeleição -- ou, dito de outra forma, aquela que impõe a si o menor custo político possível. 
+
+Essa avaliação leva em conta, sobretudo, uma antecipação da reação do eleitor no caso de a política afetá-lo negativamente. Isso significa que o legislador age de maneira defensiva, e prefere a opção cujo potencial efeito negativo implica os menores custos eleitorais possíveis no futuro. É só quando não há diferenças significativas entre as duas opções que o legislador pode escolher agir de acordo com fatores diversos.
+
+\vspace{1.5em}
+
+
+**Questão 3:** _De forma resumida, apresente as hipóteses sobre organização legislativa decorrentes das teorias distributivistas, partidárias e informacionais._
+
+As teorias distributivistas são baseadas em teoria dos jogos cooperativos e avaliam que o Congresso se organiza de maneira a garantir os ganhos mútuos da troca. Em particular, os legisladores tomam decisões que aumentem suas chances de reeleição [@Mayhew2004ElectoralConnection] e, portanto, têm incentivos para aprovar políticas particularistas, atuando sobretudo a partir de _case work_ e _pork barrel_ [@CainFerejohnFiorina1987PersonalVote].
+
+Parte da literatura prevê que esse comportamento levaria a uma alta instabilidade no processo decisório -- afinal, o incentivo ao particularismo faria com que não existisse, em geral, equilíbrio, a não ser sob distribuições de preferência extremamente específicas. Isso, no entanto, não se verifica empiricamente, porque o Congresso se estrutura de maneira que induz equilíbrio [@ShepsleWeingast1981StructureInduced]. Mais especificamente, sob essa perspectiva, o Congresso conta com mecanismos institucionais -- principalmente um sistema de comissões -- que limitam a possibilidade de inclusão de novas proposições na agenda e garantem estabilidade. 
+
+O incentivo ao comportamento particularista e a importância das comissões levariam, ainda, a um alto grau de especialização da atuação legislativa. Os legisladores se distribuiriam entre essas comissões para garantir algum poder de decisão sobre a _policy_ e, desse modo, garantir benefícios para a sua base eleitoral. Aliás, o plenário (i.e. o mediano) nesse contexto tem apenas o papel de ratificar a _policy_ definida pela comissão. Trata-se de um resultado lógico: como o Congresso é organizado para facilitar e organizar o _logrolling_ e os ganhos mútuos da troca, as decisões a respeito da policy são tomadas pelos legisladores especialistas, e essas decisões serão referendadas pelos pares -- sob a garantia de que o mesmo ocorrerá quando outros temas de interesse forem votados.
+
+Em outras palavras, sob a perspectiva distributivista, o desenho organizacional do legislativo é tal que garante os ganhos mútuos da troca -- isto é, garante que os acordos de barganha sejam mantidos a despeito do fato de que as _policies_ são naturalmente multidimensionais. 
+
+Já as teorias partidárias partem de um pressuposto distinto: o de que o Congresso não se organiza primordialmente para atender aos interesses individuais dos legisladores, mas para maximizar os objetivos coletivos dos partidos. Nessa perspectiva, os partidos funcionam como mecanismos de coordenação que internalizam o conflito de preferências entre parlamentares e impõem disciplina, de modo a garantir resultados legislativos consistentes com as plataformas partidárias e com os interesses eleitorais de longo prazo da organização [@CoxMcCubbins2007LegislativeLeviathan].
+
+A organização do Congresso, portanto, reflete a lógica do governo de maioria. As instituições legislativas são estruturadas de modo a favorecer o controle da agenda pelas lideranças partidárias, que atuam como _policy entrepreneurs_ em nome da coalizão majoritária. As comissões, nesse contexto, deixam de ser arenas de especialização individual para se tornarem instrumentos de delegação controlada, nos quais os líderes partidários alocam seus membros estrategicamente, buscando garantir que as decisões sejam compatíveis com a posição da maioria.
+
+O plenário, por sua vez, assume papel central na ratificação das preferências do partido majoritário, e a disciplina partidária torna-se o principal mecanismo de estabilidade decisória. Diferentemente do modelo distributivista, a estabilidade aqui não decorre da troca de benefícios particularistas, mas do controle hierárquico e da coerção organizacional exercida pelas lideranças sobre os seus membros.
+
+Na perspectiva informacional, por sua vez, o grande problema é a incerteza a respeito do resultado da _policy_ [@Krehbiel1992InformationLegislativeOrganization] -- algo desconsiderado pelas perspectivas anteriores. De fato, essa perspectiva assume que os legisladores precisam tomar decisões sobre temas altamente complexos, cujos resultados são mais ou menos desconhecidos. A questão, então, é como organizar o legislativo para promover a busca por expertise, compartilhar essa expertise e preservar os interesses majoritários do plenário.
+
+Trata-se, enfim, de um jogo de sinalização entre as comissões e o plenário. As comissões têm incentivo para adquirir expertise, sob a compensação de que, fazendo parte da comissão e se especializando, o legislador tem maior capacidade de influir na política. Se o objetivo da comissão é adquirir expertise sobre determinado tema, há, no entanto, uma diferença clara em relação à perspectiva distributivista: a comissão precisa espelhar o plenário. Quanto mais convergentes forem as preferências da comissão e do mediano, mais a comissão tem capacidade de partilhar informação.
+
+Note, no entanto, que a delegação de poder do mediano para as comissões implica uma perda distributiva -- isto é, o mediano está disposto a tomar uma decisão mais ou menos enviesada em relação ao seu ponto ideal em troca de ganho de informação a respeito do _outcome_ da policy.
+
+\vspace{1.5em}
+
+# Referências {.unnumbered}
+
+::: {#refs}
+:::
+
+[^1]: Uma diferença importante entre @Arnold1990LogicCongressionalAction e @Mayhew2004ElectoralConnection é que, em @Mayhew2004ElectoralConnection, o fato de que o legislador é _reelection-seeker_ faz com que sejam, necessariamente, privilegiadas as propostas que permitem _credit claiming_. Está ausente, nesse caso, o elemento da incerteza e da aversão ao risco.

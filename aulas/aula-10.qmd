@@ -1,0 +1,32 @@
+---
+title: "Para além das perspectivas"
+bibliography: ../bibliography.bib
+author:
+  - name: Felipe Lamarca
+    email: felipelamarca@iesp.uerj.br
+fontsize: 12pt
+---
+
+# @Arnold1990LogicCongressionalAction, Part One: A Theory of Policy Making {.unnumbered}
+
+## 1: Explaining Congressional Action {.unnumbered}
+
+> Why does Congress enact the policies that it does? Why does Congress frequently approve proposals that serve organized interests or that deliver narrowly targeted geographic benefits? Why does Congress sometimes break free of parochial concerns and enact bills that serve more diffuse, general, or unorganized interests? This book attempts to explain both sets of outcomes with a single theory. The theory sets forth both the conditions that encourage legislators to produce particularistic policies and serve organized interests and the conditions that prompt legislators to serve more general interests. [@Arnold1990LogicCongressionalAction, p. 3]
+
+> The greatest puzzle of all is to explain why Congress sometimes reverses itself. Why would Congress first deliver narrowly concentrated benefits to some group in society and then suddenly switch sides, imposing costs on the previously favored group, and delivering benefits to those whom it had long neglected? Such reversals are actually quite common. [...]. Explaining these reversals requires a single, unified theory of congressional policy making, one that allows for the triumph of any one of the three competing interests -- general, group, or geographic. [@Arnold1990LogicCongressionalAction, p. 4-5]
+
+> In order to explain why Congress adopts the policies that it does, I first analyze the calculations, actions, and interactions of citizens, coalition leaders, and legislators. Although ordinary legislators make all the final decisions in Congress, their choice are very much constrained by the actions of both coalition leaders and citizens. Coalition leaders design policy proposals and select strategies for enacting them. Citizens have the ability to remove from office legislators with displeasing records. I argue that legislators are partly manipulated by the actions of coalition leaders, they are partly constrained by anticipating the actions of citizens in future elections, and they are partly free agents. Understanding the interactions of citizens, coalition leaders, and legislators thus becomes the key to understanding why Congress acts as it does. [@Arnold1990LogicCongressionalAction, 5]
+
+> My basic argument is that the electoral quest can impel legislators to support policies that serve either particularistic or general interests. The push toward particularism is perhaps easier to recognize, for it frequently places legislators in direct conflict with the president and policy experts. The impulse to serve more diffuse, general, or unorganized interests is less conspicuous, in part because it simply encourages legislators to behave like other policy makers. David Mayhew has already shown how the pursuit of reelection encourages particularism. Here I specify both the conditions under which this is so and the conditions that encourage legislators to support broader interests. [@Arnold1990LogicCongressionalAction, p. 6]
+
+> I assume that when legislators have to make a decision they first ask which alternative contributes more to their chances of reelection. If they see a significant difference, they choose the alternative which better serves their cause. If they see no difference, they base their choice on any other criteria they find relevant -- perhapts they believe one policy is more effective or desirable than another, or they which to curry favor with the president or a party leader, or they wish to repay a past favor. [@Arnold1990LogicCongressionalAction, p. 7]
+
+> Coalition leaders are free to advance whatever policy alternatives they choose. Successful leaders, however, know that their choices are constrained by the need to attract the support of a majority of legislators. They must learn to anticipate legislators' decisions so that they can structure their proposals and strategies in ways designed to generate support. To complicate matters, legislators' decisions are themselves dependent on how they believe their constituents will react to their roll-call votes, so successful leaders must anticipate citizens' reactions in order to anticipate legislators' decisions. [@Arnold1990LogicCongressionalAction, p. 7]
+
+> They ask whether two alternatives differ significantly in their propensities to create negative opinions and consider whether one or the other is more likely to give a challenger an easy issue with which to arouse a voter backlash. They inquire whether citizens are more likely to notice the costs associated with one alternative or another. The analytic task is also eased by the fact that individual legislators need not estimate potential preferences all by themselves. Congress is an extraordinary institution for creating, analyzing, and sharing polically relevant information; legislators need only combine estimates from various sources in order to estimate their own constituents' potential preferences. [@Arnold1990LogicCongressionalAction, p. 12]
+
+# Anotações de aula {.unnumbered}
+
+> `wnominate` põe a dimensionalidade do conflito na dimensão liberal-conservador. Aqui no Brasil ainda há uma discussão pouco desenvolvida: a dimensão do conflito é esquerda-direita ou governo-oposição?
+
+@Arnold1990LogicCongressionalAction fala o tempo inteiro de um legislador avesso ao risco.

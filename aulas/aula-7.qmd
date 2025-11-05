@@ -7,7 +7,7 @@ author:
 fontsize: 12pt
 ---
 
-# @Krehbiel1993Party
+# @Krehbiel1993Party {.unnumbered}
 
 > When controlling for preferences and other hypothesized effects, positive and significant party effects are rare. [@Krehbiel1993Party]
 
@@ -73,7 +73,7 @@ $$
 
 > The premise of this study is that one important legislative function of political parties is to govern by passing laws that are different from those that would be passed in the absence of parties. As a means to this end, the majority party in a legislature presumably tries to organize the legislature in ways that enhance its members' influence on legislative outcomes. **A conception of significant party behaviour was proposed in which the defining characteristic of significance is that party behaviour is independent of preferences.** To assess party behaviour in the US House, party effects were estimated on the assignment of members to standing committees and on the appointment of members to conference committees. **More often than not, such effects were insignificant.** [@Krehbiel1993Party, p. 255-256]
 
-# @Krehbiel1992InformationLegislativeOrganization, chapters 1 & 3
+# @Krehbiel1992InformationLegislativeOrganization, chapters 1 & 3 {.unnumbered}
 
 > For over two centuries, members of the U.S. Congress, like the "contemporary observer" to whom Polsby refers, have been unable to shake the conviction that battles about rules, procedures, institutional arrangements, or _legislative organization_ are in fact battles about public policy and who determines it. [@Krehbiel1992InformationLegislativeOrganization, p. 1]
 
@@ -150,13 +150,13 @@ $$
 ![@Krehbiel1992InformationLegislativeOrganization](../images/krehbiel1992_distributive_vs_informational.png)
 
 
-# Exercício -- PEC da Blindagem
+# Exercício -- PEC da Blindagem {.unnumbered}
 
 A pauta do governo é uma pauta na dimensão esquerda e direita (imposto de renda, energia, etc). Mas a pauta de blindagem, anistia e tudo mais não tem nada a ver com isso; trata-se de uma outra dimensão, que não tem a ver com a dimensão governo-oposição. O conflito sobre PEC da blindagem, anistia e tal é outra história. Se não é unidimensional, há mais dificuldade para encontrar o ponto de equilíbrio. Isso é o caos. 
 
 Sabemos também que os sistemas de comissões estabilizam o conflito ao unidimensionalizar a questão. Nesse caso, no entanto, o issue não está unidimensionalizado. @WeingastMarshall1988IndustrialOrganizationCongress (organização industrial do Congresso) diriam que, nessas circunstâncias, não há como garantir o acordo. Isso mostra, sobre o Congresso brasileiro, que está havendo uma concentração do poder de agenda na presidência da Câmara e uma reconfiguração institucional.
 
-# Anotações de aula
+# Anotações de aula {.unnumbered}
 
 Aula por [Acir Almeida](https://buscatextual.cnpq.br/buscatextual/visualizacv.do).
 

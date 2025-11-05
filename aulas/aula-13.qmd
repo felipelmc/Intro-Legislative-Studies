@@ -1,0 +1,8 @@
+---
+title: "Experimentos pt. 1"
+bibliography: ../bibliography.bib
+author:
+  - name: Felipe Lamarca
+    email: felipelamarca@iesp.uerj.br
+fontsize: 12pt
+---

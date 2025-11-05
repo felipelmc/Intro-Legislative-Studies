@@ -7,7 +7,7 @@ author:
 fontsize: 12pt
 ---
 
-# @Krehbiel1998PivotalPolitics, chapter 1
+# @Krehbiel1998PivotalPolitics, chapter 1 {.unnumbered}
 
 > In spite of the abundance of excellent descriptions of lawmaking in the United States Congress, however, there seems to be a shortage of good basic theories of lawmaking that incorporate presidential as well as congressional decision making. The objective of this book is to supply a theory that begins to satisfy this demand. [@Krehbiel1998PivotalPolitics, p. 3]
 
@@ -53,7 +53,7 @@ Basic Theories or Schools of Thought:
 
 > In summary, the basic need is for a new theory of lawmaking in the United States. The theory should predict that gridlock occurs often but not always, and it should identify testable conditions under which gridlock is broken. The theory should predict the regular formation of bipartisan coalitions of greater than simple-majority size, and it should identify testable conditions under which coalition sizes grow or shrink relative to baseline expectations. Last but not least, the theory should expose and clarify the essential constraints faced by lawmakers in a democratic society. [@Krehbiel1998PivotalPolitics, p. 19]
 
-# @Krehbiel1998PivotalPolitics, chapter 2
+# @Krehbiel1998PivotalPolitics, chapter 2 {.unnumbered}
 
 > Assumptions in a formal theory are not inteded to be comprehensive and unequivocally true. If they were comprehensive and unequivocally true they would simply restate or describe reality as we know it, and they would be much too complex from which to derive testable propositions about political behavior. Instead, assumptions are intended to satisfy aims that are at once more modest descriptively and more constructive analytically. They should reflect the essence of choice settings with sufficient simplicity that the model itself remains tractable, because a model that cannot be solved is not a data-ready model. What, then, are the essential features of U.S. lawmaking settings? One plausible answer is separation of powers, heterogeneous preferences, and multistage collective choice. 
 >
@@ -61,7 +61,7 @@ Basic Theories or Schools of Thought:
 >
 > Interpretations constitute another class of desirable properties of a useful theory. An improved theory os U.S. lawmaking also should help to account for anomalies or puzzles that are not necessarily empirical motivations underlying the necessarily sparse assumptions of the theory. For example, why do we often have gridlock even in unified governments (Mayhew 1991, 1995)? Why do presidents launch fewer policy initiatives the longer they are in office (Light 1991)?  [...] To the extent that a new theory can answer questions such as these in addition to providing an explanation for more basic facts, it will have added appeal. [@Krehbiel1998PivotalPolitics, p. 20]
 
-## Assumptions
+## Assumptions {.unnumbered}
 
 - **Policy Space:** "Collective choice occurs via voting over proposals or policies that can be arranged on a line. That is, the policy space is unidimensional. It is convenient and intuitive to think of the policy space as a continuum on which liberal policies are located on the left, moderate policies are located in the center, and conservative policies are located on the right. Because the policy space is continuous, it is possible to consider policies at any point between liberal and conservative extremes." [@Krehbiel1998PivotalPolitics, p. 21]
 
@@ -79,7 +79,7 @@ Basic Theories or Schools of Thought:
 
 - **Parties:** "No special assumptions are made about the ability of political parties to shape individual lawmakers' decisions. This, admittedly, is a judgment that is likely to be controversial. The present aim is not to preempt or stifle controversity but rather to clarify the issue so that neutral readers can form independent judgments after a substantial amount of evidence is presented." [@Krehbiel1998PivotalPolitics, p. 26-27]
 
-## Possible results
+## Possible results {.unnumbered}
 
 ![@Krehbiel1998PivotalPolitics, p. 35](../images/krehbiel1998_pivotal_politics.png)
 
@@ -93,7 +93,7 @@ Basic Theories or Schools of Thought:
 
 **Gridlock:** "Finally, no convergence occurs in the theory for centrally located status quo points, namely, those in interval III. For any left-of-center status quo in this interval, a moderate-to-conservative legislative majority would like to pass a more conservative policy. It cannot do so, however, because such a proposal would be killed by a liberal filibuster. Analogously, for any right-of-center status quo in this interval, a moderate-to-liberal legislative majority would like to pass a more liberal policy. It cannot do so, however, because such a porposal would be vetoed, and the veto would be sustained." [@Krehbiel1998PivotalPolitics, p. 38]
 
-## Conclusion
+## Conclusion {.unnumbered}
 
 > The theory of pivotal politics identifies a single, conceptually tidy, necessary and sufficient condition for breaking gridlock. Policy change requires that the status quo must lie outside the gridlock interval, as defined by the president, filibuster, and veto pivots in theory and illustrated in figures 2.7 and 2.8 as interval III. [...].
 >
@@ -101,9 +101,9 @@ Basic Theories or Schools of Thought:
 >
 > The theory has some bonus features as well. Loosely applied, it serves as a rationalizing device for one of the biggest recent surprises in U.S. politics: unified government gridlock. Also loosely applied, it provides a sort of lens through which we can better envision other regularities: honeymoons, fast starts, and eventual frizzles within presidential terms; intraterm decreases in the number of presidential initiatives; declining presidential popularity; and frustration of moderate legislators. [@Krehbiel1998PivotalPolitics, p. 47]
 
-# Anotações de aula
+# Anotações de aula {.unnumbered}
 
-## Retomando a aula do Acir
+## Retomando a aula do Acir {.unnumbered}
 
 Na teoria informacional, existe uma incerteza a respeito de um resultado dada uma policy. A questão informacional é a redução dessa incerteza, porque interessa ao político o outcome. 
 
@@ -127,7 +127,7 @@ Conceitos importantes: pivôs (e suas posições), status quo e região de impas
 
 > Sugestão: Mr. Smith goes to Washington
 
-## @Krehbiel1998PivotalPolitics
+## @Krehbiel1998PivotalPolitics {.unnumbered}
 
 No espaço unidimensional, a maioria é o eleitor mediano. Nos legislativos na prática, precisamos olhar para maiorias qualificadas e o mediano se torna insuficiente -- precisamos olhar para pivôs.
 
